@@ -33,6 +33,8 @@ export type Database = {
           summary: string | null
           country: string | null
           city: string | null
+          phone: string | null
+          avatar_url: string | null
           location_preferences: string[] | null
           created_at: string
           updated_at: string
@@ -45,6 +47,8 @@ export type Database = {
           summary?: string | null
           country?: string | null
           city?: string | null
+          phone?: string | null
+          avatar_url?: string | null
           location_preferences?: string[] | null
           created_at?: string
           updated_at?: string
@@ -57,6 +61,8 @@ export type Database = {
           summary?: string | null
           country?: string | null
           city?: string | null
+          phone?: string | null
+          avatar_url?: string | null
           location_preferences?: string[] | null
           updated_at?: string
         }

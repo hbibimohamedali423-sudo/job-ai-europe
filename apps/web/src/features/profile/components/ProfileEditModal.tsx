@@ -14,6 +14,7 @@ const profileSchema = z.object({
   summary: z.string().optional(),
   country: z.string().optional(),
   city: z.string().optional(),
+  phone: z.string().optional(),
 })
 
 type ProfileFormData = z.infer<typeof profileSchema>
@@ -41,6 +42,7 @@ export function ProfileEditModal({ isOpen, onClose, onSubmit, profile, loading }
       summary: profile?.summary || '',
       country: profile?.country || '',
       city: profile?.city || '',
+      phone: profile?.phone || '',
     },
   })
 
@@ -51,6 +53,7 @@ export function ProfileEditModal({ isOpen, onClose, onSubmit, profile, loading }
       summary: data.summary || null,
       country: data.country || null,
       city: data.city || null,
+      phone: data.phone || null,
     })
     reset()
   }
@@ -82,6 +85,16 @@ export function ProfileEditModal({ isOpen, onClose, onSubmit, profile, loading }
           <Input
             id="full_name"
             {...register('full_name')}
+          />
+        </div>
+
+        <div className="space-y-2">
+          <Label htmlFor="phone">{t('profile.personal.phone')}</Label>
+          <Input
+            id="phone"
+            type="tel"
+            placeholder="+49 123 456 789"
+            {...register('phone')}
           />
         </div>
 

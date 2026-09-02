@@ -17,6 +17,7 @@ import {
   LanguageFormModal,
   SkillSelectModal,
   ProfileEditModal,
+  ProfilePhotoUpload,
 } from '../components'
 import type { Experience, Education, Certification, Language, Skill } from '@/services/profile'
 
@@ -53,6 +54,14 @@ export function ProfilePage() {
   } = useProfileStore()
 
   const [completion, setCompletion] = useState(0)
+
+  const handleAvatarUpload = async (url: string) => {
+    await updateProfile({ avatar_url: url })
+  }
+
+  const handleAvatarDelete = async () => {
+    await updateProfile({ avatar_url: null })
+  }
 
   // Modals state
   const [profileModalOpen, setProfileModalOpen] = useState(false)
@@ -204,23 +213,40 @@ export function ProfilePage() {
           <CardHeader>
             <CardTitle>{t('profile.personal.title')}</CardTitle>
           </CardHeader>
-          <CardContent className="space-y-4">
-            <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
-              <div>
-                <p className="text-sm text-neutral-500">{t('profile.personal.fullName')}</p>
-                <p className="font-medium">{profile?.full_name || 'Not set'}</p>
+          <CardContent>
+            <div className="flex flex-col md:flex-row gap-6">
+              {/* Profile Photo */}
+              <div className="flex-shrink-0">
+                <ProfilePhotoUpload
+                  userId={user.id}
+                  currentAvatarUrl={profile?.avatar_url || null}
+                  onUploadComplete={handleAvatarUpload}
+                  onDeleteComplete={handleAvatarDelete}
+                />
               </div>
-              <div>
-                <p className="text-sm text-neutral-500">{t('profile.personal.email')}</p>
-                <p className="font-medium">{user.email}</p>
-              </div>
-              <div>
-                <p className="text-sm text-neutral-500">{t('profile.personal.country')}</p>
-                <p className="font-medium">{profile?.country || 'Not set'}</p>
-              </div>
-              <div>
-                <p className="text-sm text-neutral-500">{t('profile.personal.city')}</p>
-                <p className="font-medium">{profile?.city || 'Not set'}</p>
+
+              {/* Profile Details */}
+              <div className="grid grid-cols-1 gap-4 md:grid-cols-2 flex-1">
+                <div>
+                  <p className="text-sm text-neutral-500">{t('profile.personal.fullName')}</p>
+                  <p className="font-medium">{profile?.full_name || 'Not set'}</p>
+                </div>
+                <div>
+                  <p className="text-sm text-neutral-500">{t('profile.personal.email')}</p>
+                  <p className="font-medium">{user.email}</p>
+                </div>
+                <div>
+                  <p className="text-sm text-neutral-500">{t('profile.personal.phone')}</p>
+                  <p className="font-medium">{profile?.phone || 'Not set'}</p>
+                </div>
+                <div>
+                  <p className="text-sm text-neutral-500">{t('profile.personal.country')}</p>
+                  <p className="font-medium">{profile?.country || 'Not set'}</p>
+                </div>
+                <div>
+                  <p className="text-sm text-neutral-500">{t('profile.personal.city')}</p>
+                  <p className="font-medium">{profile?.city || 'Not set'}</p>
+                </div>
               </div>
             </div>
           </CardContent>
