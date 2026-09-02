@@ -271,13 +271,29 @@
   "applications": {
     "title": "Le Mie Candidature",
     "subtitle": "Tieni traccia delle tue candidature",
+    "browseJobs": "Sfoglia Lavori",
+    "authRequired": {
+      "title": "Accedi per vedere le candidature",
+      "message": "Effettua l'accesso per tracciare le tue candidature"
+    },
     "status": {
+      "all": "Tutti",
       "draft": "Bozza",
       "applied": "Candidatura Inviata",
       "pending": "In Attesa",
       "interview": "Colloquio",
       "rejected": "Rifiutato",
-      "accepted": "Accettato"
+      "accepted": "Accettato",
+      "label": "Stato Candidatura"
+    },
+    "stats": {
+      "total": "Totale"
+    },
+    "tabs": {
+      "details": "Dettagli",
+      "cv": "CV",
+      "coverLetter": "Lettera di Presentazione",
+      "message": "Messaggio"
     },
     "generate": {
       "title": "Genera Materiali di Candidatura",
@@ -289,9 +305,40 @@
       "review": "Revisiona e Modifica",
       "approve": "Approva e Salva"
     },
+    "generateContent": "Genera Contenuto",
+    "generating": "Generazione...",
+    "edit": "Modifica",
+    "save": "Salva",
+    "approveContent": "Approva e Salva",
+    "approved": "Approvato",
+    "pendingApproval": "In Attesa di Approvazione",
+    "noContent": "Nessun contenuto generato",
+    "notes": {
+      "label": "Note",
+      "placeholder": "Aggiungi note su questa candidatura..."
+    },
+    "appliedOn": "Candidatura inviata il",
+    "createdOn": "Creato il",
+    "viewDetails": "Vedi Dettagli",
+    "viewJob": "Vedi Lavoro",
+    "delete": "Elimina Candidatura",
+    "confirmDelete": "Sei sicuro di voler eliminare questa candidatura? Questa azione non può essere annullata.",
+    "close": "Chiudi",
+    "create": {
+      "title": "Crea Candidatura",
+      "description": "Inizia la tua candidatura per questo lavoro",
+      "draftMode": "Salva come bozza (non contrassegnare come inviato)",
+      "submit": "Crea Candidatura"
+    },
+    "creating": "Creazione...",
     "empty": {
       "title": "Nessuna candidatura",
-      "description": "Inizia a candidarti per tenere traccia dei progressi"
+      "description": "Inizia a candidarti per tenere traccia dei progressi",
+      "filtered": {
+        "title": "Nessuna candidatura con questo stato",
+        "message": "Non hai candidature con questo filtro di stato.",
+        "clear": "Cancella Filtro"
+      }
     }
   },
   "assistant": {

@@ -25,7 +25,7 @@ This project has exactly 7 phases:
 | Phase 2 | Professional Profile | ✅ COMPLETE | |
 | Phase 3 | Job Search | ✅ COMPLETE | |
 | Phase 4 | AI Matching | ✅ COMPLETE |
-| Phase 5 | Applications | NOT STARTED |
+| Phase 5 | Applications | ✅ COMPLETE |
 | Phase 6 | AI Assistant | NOT STARTED |
 
 **Do NOT create Phase 7 or additional phases.**
@@ -322,6 +322,6 @@ Future agents MUST NOT:
 
 See STATUS.md for current state.
 
-Current phase: **Phase 4 COMPLETE**
+Current phase: **Phase 5 COMPLETE**
 
-Next phase: **Phase 5 - Applications**
+Next phase: **Phase 6 - AI Assistant**

@@ -271,13 +271,29 @@
   "applications": {
     "title": "Mis Solicitudes",
     "subtitle": "Rastrea tus solicitudes de empleo",
+    "browseJobs": "Explorar Empleos",
+    "authRequired": {
+      "title": "Inicia sesión para ver solicitudes",
+      "message": "Por favor inicia sesión para rastrear tus solicitudes"
+    },
     "status": {
+      "all": "Todos",
       "draft": "Borrador",
       "applied": "Aplicado",
       "pending": "Pendiente",
       "interview": "Entrevista",
       "rejected": "Rechazado",
-      "accepted": "Aceptado"
+      "accepted": "Aceptado",
+      "label": "Estado de Solicitud"
+    },
+    "stats": {
+      "total": "Total"
+    },
+    "tabs": {
+      "details": "Detalles",
+      "cv": "CV",
+      "coverLetter": "Carta de Presentación",
+      "message": "Mensaje"
     },
     "generate": {
       "title": "Generar Materiales de Solicitud",
@@ -289,9 +305,40 @@
       "review": "Revisar y Editar",
       "approve": "Aprobar y Guardar"
     },
+    "generateContent": "Generar Contenido",
+    "generating": "Generando...",
+    "edit": "Editar",
+    "save": "Guardar",
+    "approveContent": "Aprobar y Guardar",
+    "approved": "Aprobado",
+    "pendingApproval": "Pendiente de Aprobación",
+    "noContent": "Sin contenido generado",
+    "notes": {
+      "label": "Notas",
+      "placeholder": "Agregar notas sobre esta solicitud..."
+    },
+    "appliedOn": "Aplicado el",
+    "createdOn": "Creado el",
+    "viewDetails": "Ver Detalles",
+    "viewJob": "Ver Empleo",
+    "delete": "Eliminar Solicitud",
+    "confirmDelete": "¿Estás seguro de que deseas eliminar esta solicitud? Esta acción no se puede deshacer.",
+    "close": "Cerrar",
+    "create": {
+      "title": "Crear Solicitud",
+      "description": "Comienza tu solicitud para este empleo",
+      "draftMode": "Guardar como borrador (no marcar como aplicado aún)",
+      "submit": "Crear Solicitud"
+    },
+    "creating": "Creando...",
     "empty": {
       "title": "Sin solicitudes aún",
-      "description": "Comienza a aplicar a empleos para rastrear tu progreso"
+      "description": "Comienza a aplicar a empleos para rastrear tu progreso",
+      "filtered": {
+        "title": "Sin solicitudes con este estado",
+        "message": "No tienes solicitudes con este filtro de estado.",
+        "clear": "Limpiar Filtro"
+      }
     }
   },
   "assistant": {

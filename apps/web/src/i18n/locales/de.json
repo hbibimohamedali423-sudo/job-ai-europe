@@ -271,17 +271,33 @@
   "applications": {
     "title": "Meine Bewerbungen",
     "subtitle": "Verfolgen Sie Ihre Bewerbungen",
+    "browseJobs": "Stellen durchsuchen",
+    "authRequired": {
+      "title": "Anmelden um Bewerbungen zu sehen",
+      "message": "Bitte melden Sie sich an um Ihre Bewerbungen zu verfolgen"
+    },
     "status": {
+      "all": "Alle",
       "draft": "Entwurf",
       "applied": "Beworben",
       "pending": "Ausstehend",
       "interview": "Interview",
       "rejected": "Abgelehnt",
-      "accepted": "Angenommen"
+      "accepted": "Angenommen",
+      "label": "Bewerbungsstatus"
+    },
+    "stats": {
+      "total": "Gesamt"
+    },
+    "tabs": {
+      "details": "Details",
+      "cv": "Lebenslauf",
+      "coverLetter": "Anschreiben",
+      "message": "Nachricht"
     },
     "generate": {
       "title": "Bewerbungsunterlagen generieren",
-      "cv": "Tailored CV",
+      "cv": "Lebenslauf",
       "coverLetter": "Anschreiben",
       "message": "Bewerbungsnachricht",
       "generate": "Mit KI generieren",
@@ -289,9 +305,40 @@
       "review": "Überprüfen & Bearbeiten",
       "approve": "Genehmigen & Speichern"
     },
+    "generateContent": "Inhalt generieren",
+    "generating": "Generiere...",
+    "edit": "Bearbeiten",
+    "save": "Speichern",
+    "approveContent": "Genehmigen & Speichern",
+    "approved": "Genehmigt",
+    "pendingApproval": "Wartet auf Genehmigung",
+    "noContent": "Noch kein Inhalt generiert",
+    "notes": {
+      "label": "Notizen",
+      "placeholder": "Notizen zu dieser Bewerbung hinzufügen..."
+    },
+    "appliedOn": "Beworben am",
+    "createdOn": "Erstellt am",
+    "viewDetails": "Details anzeigen",
+    "viewJob": "Stelle anzeigen",
+    "delete": "Bewerbung löschen",
+    "confirmDelete": "Sind Sie sicher, dass Sie diese Bewerbung löschen möchten? Diese Aktion kann nicht rückgängig gemacht werden.",
+    "close": "Schließen",
+    "create": {
+      "title": "Bewerbung erstellen",
+      "description": "Starten Sie Ihre Bewerbung für diese Stelle",
+      "draftMode": "Als Entwurf speichern (noch nicht als beworben markieren)",
+      "submit": "Bewerbung erstellen"
+    },
+    "creating": "Erstelle...",
     "empty": {
       "title": "Noch keine Bewerbungen",
-      "description": "Bewerben Sie sich auf Stellen, um Ihren Fortschritt zu verfolgen"
+      "description": "Bewerben Sie sich auf Stellen, um Ihren Fortschritt zu verfolgen",
+      "filtered": {
+        "title": "Keine Bewerbungen mit diesem Status",
+        "message": "Sie haben keine Bewerbungen mit diesem Statusfilter.",
+        "clear": "Filter löschen"
+      }
     }
   },
   "assistant": {

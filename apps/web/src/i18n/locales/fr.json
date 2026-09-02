@@ -271,13 +271,29 @@
   "applications": {
     "title": "Mes Candidatures",
     "subtitle": "Suivez vos candidatures",
+    "browseJobs": "Parcourir les Emplois",
+    "authRequired": {
+      "title": "Connectez-vous pour voir les candidatures",
+      "message": "Veuillez vous connecter pour suivre vos candidatures"
+    },
     "status": {
+      "all": "Tous",
       "draft": "Brouillon",
       "applied": "Candidaté",
       "pending": "En Attente",
       "interview": "Entretien",
       "rejected": "Rejeté",
-      "accepted": "Accepté"
+      "accepted": "Accepté",
+      "label": "Statut de la Candidature"
+    },
+    "stats": {
+      "total": "Total"
+    },
+    "tabs": {
+      "details": "Détails",
+      "cv": "CV",
+      "coverLetter": "Lettre de Motivation",
+      "message": "Message"
     },
     "generate": {
       "title": "Générer les Documents",
@@ -289,9 +305,40 @@
       "review": "Réviser et Modifier",
       "approve": "Approuver et Enregistrer"
     },
+    "generateContent": "Générer le Contenu",
+    "generating": "Génération...",
+    "edit": "Modifier",
+    "save": "Enregistrer",
+    "approveContent": "Approuver et Enregistrer",
+    "approved": "Approuvé",
+    "pendingApproval": "En Attente d'Approbation",
+    "noContent": "Aucun contenu généré",
+    "notes": {
+      "label": "Notes",
+      "placeholder": "Ajoutez des notes sur cette candidature..."
+    },
+    "appliedOn": "Candidaté le",
+    "createdOn": "Créé le",
+    "viewDetails": "Voir les Détails",
+    "viewJob": "Voir l'Emploi",
+    "delete": "Supprimer la Candidature",
+    "confirmDelete": "Êtes-vous sûr de vouloir supprimer cette candidature ? Cette action est irréversible.",
+    "close": "Fermer",
+    "create": {
+      "title": "Créer une Candidature",
+      "description": "Commencez votre candidature pour cet emploi",
+      "draftMode": "Enregistrer comme brouillon (ne pas marquer comme appliqué)",
+      "submit": "Créer la Candidature"
+    },
+    "creating": "Création...",
     "empty": {
       "title": "Aucune candidature",
-      "description": "Postulez à des emplois pour suivre votre progression"
+      "description": "Postulez à des emplois pour suivre votre progression",
+      "filtered": {
+        "title": "Aucune candidature avec ce statut",
+        "message": "Vous n'avez aucune candidature avec ce filtre de statut.",
+        "clear": "Effacer le Filtre"
+      }
     }
   },
   "assistant": {

@@ -343,13 +343,29 @@
   "applications": {
     "title": "My Applications",
     "subtitle": "Track your job applications",
+    "browseJobs": "Browse Jobs",
+    "authRequired": {
+      "title": "Sign in to view applications",
+      "message": "Please sign in to track your job applications"
+    },
     "status": {
+      "all": "All",
       "draft": "Draft",
       "applied": "Applied",
       "pending": "Pending",
       "interview": "Interview",
       "rejected": "Rejected",
-      "accepted": "Accepted"
+      "accepted": "Accepted",
+      "label": "Application Status"
+    },
+    "stats": {
+      "total": "Total"
+    },
+    "tabs": {
+      "details": "Details",
+      "cv": "CV",
+      "coverLetter": "Cover Letter",
+      "message": "Message"
     },
     "generate": {
       "title": "Generate Application Materials",
@@ -361,9 +377,40 @@
       "review": "Review & Edit",
       "approve": "Approve & Save"
     },
+    "generateContent": "Generate Content",
+    "generating": "Generating...",
+    "edit": "Edit",
+    "save": "Save",
+    "approveContent": "Approve & Save",
+    "approved": "Approved",
+    "pendingApproval": "Pending Approval",
+    "noContent": "No content generated yet",
+    "notes": {
+      "label": "Notes",
+      "placeholder": "Add notes about this application..."
+    },
+    "appliedOn": "Applied",
+    "createdOn": "Created",
+    "viewDetails": "View Details",
+    "viewJob": "View Job",
+    "delete": "Delete Application",
+    "confirmDelete": "Are you sure you want to delete this application? This action cannot be undone.",
+    "close": "Close",
+    "create": {
+      "title": "Create Application",
+      "description": "Start your application for this job",
+      "draftMode": "Save as draft (don't mark as applied yet)",
+      "submit": "Create Application"
+    },
+    "creating": "Creating...",
     "empty": {
       "title": "No applications yet",
-      "description": "Start applying to jobs to track your progress"
+      "description": "Start applying to jobs to track your progress",
+      "filtered": {
+        "title": "No applications with this status",
+        "message": "You don't have any applications with this status filter.",
+        "clear": "Clear Filter"
+      }
     }
   },
   "assistant": {
