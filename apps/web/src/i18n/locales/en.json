@@ -417,11 +417,29 @@
     "title": "AI Assistant",
     "subtitle": "Your career helper",
     "placeholder": "Ask me anything about your job search...",
+    "send": "Send",
+    "newChat": "New Chat",
+    "chatTitle": "Chat",
+    "quickActions": "Quick Actions",
+    "helpText": "The AI Assistant provides career guidance and support. Responses are generated based on your profile and job search context.",
+    "authRequired": {
+      "title": "Login Required",
+      "message": "Please login to access the AI Assistant"
+    },
+    "context": {
+      "profile": "Profile Context",
+      "job": "Job Context",
+      "match": "Match Context",
+      "application": "Application Context",
+      "general": "General Context"
+    },
     "suggestions": {
       "helpProfile": "Help me improve my profile",
       "explainJob": "Explain this job requirements",
       "improveCV": "How can I improve my CV?",
-      "prepareInterview": "Help me prepare for an interview"
+      "prepareInterview": "Help me prepare for an interview",
+      "careerGuidance": "Give me career guidance",
+      "translate": "Help with translation"
     }
   },
   "admin": {

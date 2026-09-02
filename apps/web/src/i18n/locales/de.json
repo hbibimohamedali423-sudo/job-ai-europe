@@ -345,11 +345,29 @@
     "title": "KI-Assistent",
     "subtitle": "Ihr Karrierehelfer",
     "placeholder": "Fragen Sie mich alles über Ihre Jobsuche...",
+    "send": "Senden",
+    "newChat": "Neuer Chat",
+    "chatTitle": "Chat",
+    "quickActions": "Schnellaktionen",
+    "helpText": "Der KI-Assistent bietet Karriereberatung und Unterstützung. Antworten werden basierend auf Ihrem Profil und Jobkontext generiert.",
+    "authRequired": {
+      "title": "Anmeldung erforderlich",
+      "message": "Bitte melden Sie sich an, um auf den KI-Assistenten zuzugreifen"
+    },
+    "context": {
+      "profile": "Profilkontext",
+      "job": "Stellenkontext",
+      "match": "Übereinstimmungskontext",
+      "application": "Bewerbungskontext",
+      "general": "Allgemeiner Kontext"
+    },
     "suggestions": {
       "helpProfile": "Helfen Sie mir, mein Profil zu verbessern",
       "explainJob": "Erklären Sie diese Stellenanforderungen",
       "improveCV": "Wie kann ich mein CV verbessern?",
-      "prepareInterview": "Helfen Sie mir, mich auf ein Interview vorzubereiten"
+      "prepareInterview": "Helfen Sie mir, mich auf ein Interview vorzubereiten",
+      "careerGuidance": "Geben Sie mir Karriereberatung",
+      "translate": "Hilfe bei der Übersetzung"
     }
   },
   "admin": {

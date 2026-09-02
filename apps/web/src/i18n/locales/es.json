@@ -345,11 +345,29 @@
     "title": "Asistente IA",
     "subtitle": "Tu ayudante de carrera",
     "placeholder": "Pregúntame cualquier cosa sobre tu búsqueda de empleo...",
+    "send": "Enviar",
+    "newChat": "Nuevo Chat",
+    "chatTitle": "Chat",
+    "quickActions": "Acciones Rápidas",
+    "helpText": "El asistente IA proporciona orientación y apoyo profesional. Las respuestas se generan en función de tu perfil y el contexto de búsqueda de empleo.",
+    "authRequired": {
+      "title": "Inicio de Sesión Requerido",
+      "message": "Por favor inicia sesión para acceder al asistente IA"
+    },
+    "context": {
+      "profile": "Contexto de Perfil",
+      "job": "Contexto de Empleo",
+      "match": "Contexto de Coincidencia",
+      "application": "Contexto de Solicitud",
+      "general": "Contexto General"
+    },
     "suggestions": {
       "helpProfile": "Ayúdame a mejorar mi perfil",
       "explainJob": "Explica los requisitos de este empleo",
       "improveCV": "¿Cómo puedo mejorar mi CV?",
-      "prepareInterview": "Ayúdame a prepararme para una entrevista"
+      "prepareInterview": "Ayúdame a prepararme para una entrevista",
+      "careerGuidance": "Dame orientación de carrera",
+      "translate": "Ayuda con traducción"
     }
   },
   "admin": {

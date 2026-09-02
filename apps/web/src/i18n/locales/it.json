@@ -345,11 +345,29 @@
     "title": "Assistente AI",
     "subtitle": "Il tuo aiutante di carriera",
     "placeholder": "Chiedimi qualsiasi cosa sulla tua ricerca di lavoro...",
+    "send": "Invia",
+    "newChat": "Nuova Chat",
+    "chatTitle": "Chat",
+    "quickActions": "Azioni Rapide",
+    "helpText": "L'assistente AI fornisce orientamento e supporto professionale. Le risposte vengono generate in base al tuo profilo e al contesto della ricerca di lavoro.",
+    "authRequired": {
+      "title": "Accesso Richiesto",
+      "message": "Effettua il login per accedere all'assistente AI"
+    },
+    "context": {
+      "profile": "Contesto Profilo",
+      "job": "Contesto Lavoro",
+      "match": "Contesto Corrispondenza",
+      "application": "Contesto Candidatura",
+      "general": "Contesto Generale"
+    },
     "suggestions": {
       "helpProfile": "Aiutami a migliorare il mio profilo",
       "explainJob": "Spiega i requisiti di questo lavoro",
       "improveCV": "Come posso migliorare il mio CV?",
-      "prepareInterview": "Aiutami a prepararmi per un colloquio"
+      "prepareInterview": "Aiutami a prepararmi per un colloquio",
+      "careerGuidance": "Dammi orientamento di carriera",
+      "translate": "Aiuto con la traduzione"
     }
   },
   "admin": {
