@@ -9,7 +9,6 @@ import type {
   CreateApplicationParams,
   UpdateApplicationParams,
   CreateApplicationOutputParams,
-  UpdateApplicationOutputParams,
   ApplicationStatusCounts,
 } from '@/types/application'
 

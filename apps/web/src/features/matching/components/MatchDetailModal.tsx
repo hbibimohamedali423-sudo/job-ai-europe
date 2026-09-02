@@ -52,7 +52,7 @@ export function MatchDetailModal({ isOpen, onClose, match }: MatchDetailModalPro
           </Button>
           <Button asChild>
             <a
-              href={match.job.application_url || `#`}
+              href={'application_url' in match.job ? (match.job as { application_url?: string }).application_url || `#` : `#`}
               target="_blank"
               rel="noopener noreferrer"
               onClick={onClose}
@@ -110,7 +110,7 @@ export function MatchDetailModal({ isOpen, onClose, match }: MatchDetailModalPro
             <div className="col-span-2">
               <p className="font-medium text-neutral-500">{t('jobs.fields.salary')}</p>
               <p className="mt-1 text-neutral-900">
-                {formatSalary(match.job.salary_min, match.job.salary_max, match.job.salary_currency)}
+                {formatSalary(match.job.salary_min, match.job.salary_max, ('salary_currency' in match.job ? ((match.job as { salary_currency?: string | null }).salary_currency ?? null) : null))}
               </p>
             </div>
           )}

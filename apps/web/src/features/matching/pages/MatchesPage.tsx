@@ -26,7 +26,7 @@ export function MatchesPage() {
 
   const [selectedMatch, setSelectedMatch] = useState<MatchWithJob | null>(null)
   const [detailModalOpen, setDetailModalOpen] = useState(false)
-  const [calculatingMatchIds, setCalculatingMatchIds] = useState<Set<string>>(new Set())
+  const [_calculatingMatchIds, setCalculatingMatchIds] = useState<Set<string>>(new Set())
 
   // Initial load
   useEffect(() => {

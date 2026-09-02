@@ -3,7 +3,6 @@ import { useTranslation } from 'react-i18next'
 import { Modal } from '@/components/ui/Modal'
 import { Button } from '@/components/ui/Button'
 import { Badge } from '@/components/ui/Badge'
-import { Input } from '@/components/ui/Input'
 import { Label } from '@/components/ui/Label'
 import { useApplicationStore } from '@/stores/application'
 import type { ApplicationWithDetails, ApplicationStatus, ApplicationOutputType } from '@/types/application'
@@ -279,8 +278,6 @@ export function ApplicationDetailModal({ isOpen, onClose, application }: Applica
       isOpen={isOpen}
       onClose={onClose}
       title={application.job.title}
-      description={`${application.job.company} - ${t(`applications.status.${application.status}`)}`}
-      size="lg"
     >
       {/* Tabs */}
       <div className="border-b border-neutral-200">

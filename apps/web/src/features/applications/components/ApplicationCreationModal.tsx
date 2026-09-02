@@ -24,7 +24,7 @@ export function ApplicationCreationModal({ isOpen, onClose, job, userId }: Appli
     if (!job) return
     
     try {
-      const application = await createApplication(userId, job.id)
+      await createApplication(userId, job.id)
       
       // If user wants to add notes and not just draft
       if (notes.trim() && !createAsDraft) {
@@ -44,8 +44,6 @@ export function ApplicationCreationModal({ isOpen, onClose, job, userId }: Appli
       isOpen={isOpen}
       onClose={onClose}
       title={t('applications.create.title')}
-      description={t('applications.create.description')}
-      size="md"
     >
       {/* Job Preview */}
       <div className="rounded-lg bg-neutral-50 p-4 mb-6">

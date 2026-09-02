@@ -584,7 +584,7 @@ function calculateLocationScore(
 function generateMatchSummary(
   breakdown: MatchScoreBreakdown,
   matchedSkills: string[],
-  missingSkills: string[],
+  _missingSkills: string[],
   strengths: string[],
   risks: string[]
 ): string {

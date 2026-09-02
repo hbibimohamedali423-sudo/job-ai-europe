@@ -6,7 +6,7 @@ import { useAuthStore } from '@/stores/auth'
 import { Button } from '@/components/ui/Button'
 import { LoadingScreen } from '@/components/feedback/LoadingScreen'
 import { ApplicationCard, ApplicationDetailModal } from '../components'
-import type { ApplicationWithDetails, ApplicationStatus } from '@/types/application'
+import type { ApplicationStatus } from '@/types/application'
 
 const STATUS_OPTIONS: (ApplicationStatus | 'all')[] = [
   'all',
@@ -57,11 +57,6 @@ export function ApplicationsPage() {
   const filteredApplications = selectedStatus === 'all'
     ? applications
     : applications.filter(app => app.status === selectedStatus)
-
-  const getStatusBadgeVariant = (status: ApplicationStatus | 'all') => {
-    if (status === 'all') return selectedStatus === status ? 'default' : 'secondary'
-    return selectedStatus === status ? 'default' : 'secondary'
-  }
 
   if (!user) {
     return (
