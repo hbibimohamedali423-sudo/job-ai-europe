@@ -29,6 +29,7 @@ export function RegisterPage() {
   const { setUser, setSession } = useAuthStore()
   const [error, setError] = useState<string | null>(null)
   const [loading, setLoading] = useState(false)
+  const [emailSent, setEmailSent] = useState(false)
 
   const {
     register: formRegister,
@@ -48,15 +49,43 @@ export function RegisterPage() {
       fullName: data.fullName,
     })
 
-    if (authError || !user || !session) {
-      setError(authError || 'Registration failed')
+    if (authError) {
+      setError(authError)
       setLoading(false)
       return
     }
 
-    setUser(user)
-    setSession({ access_token: session.access_token, refresh_token: session.refresh_token })
-    navigate('/', { replace: true })
+    // If user is created but no session (email verification required)
+    if (user && !session) {
+      setEmailSent(true)
+      setLoading(false)
+      return
+    }
+
+    // If both user and session exist, log in immediately
+    if (user && session) {
+      setUser(user)
+      setSession({ access_token: session.access_token, refresh_token: session.refresh_token })
+      navigate('/', { replace: true })
+    }
+  }
+
+  if (emailSent) {
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-neutral-50 px-4 py-12">
+        <Card className="w-full max-w-md">
+          <CardHeader className="text-center">
+            <CardTitle className="text-2xl text-success-600">{t('auth.verification.emailSent')}</CardTitle>
+            <CardDescription>{t('auth.verification.emailSentDescription')}</CardDescription>
+          </CardHeader>
+          <CardContent className="text-center">
+            <Link to="/login">
+              <Button variant="outline">{t('auth.login.signIn')}</Button>
+            </Link>
+          </CardContent>
+        </Card>
+      </div>
+    )
   }
 
   return (

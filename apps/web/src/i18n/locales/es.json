@@ -66,6 +66,31 @@
     "logout": {
       "success": "Has cerrado sesión"
     },
+    "forgotPassword": {
+      "title": "Restablecer tu contraseña",
+      "subtitle": "Ingresa tu dirección de correo electrónico y te enviaremos un enlace para restablecer tu contraseña",
+      "email": "Correo electrónico",
+      "submit": "Enviar enlace de restablecimiento",
+      "backToLogin": "Volver al inicio de sesión",
+      "emailSent": "¡Correo de restablecimiento de contraseña enviado!",
+      "emailSentDescription": "Revisa tu correo electrónico para obtener un enlace para restablecer tu contraseña. El enlace expirará en 1 hora."
+    },
+    "resetPassword": {
+      "title": "Establecer nueva contraseña",
+      "subtitle": "Crea una nueva contraseña para tu cuenta",
+      "newPassword": "Nueva contraseña",
+      "confirmPassword": "Confirmar nueva contraseña",
+      "submit": "Actualizar contraseña",
+      "success": "¡Contraseña actualizada con éxito!",
+      "successDescription": "Tu contraseña ha sido actualizada. Ahora puedes iniciar sesión con tu nueva contraseña.",
+      "redirecting": "Redirigiendo al inicio de sesión..."
+    },
+    "verification": {
+      "emailSent": "¡Correo de verificación enviado!",
+      "emailSentDescription": "Por favor revisa tu correo electrónico y haz clic en el enlace de verificación para activar tu cuenta.",
+      "verified": "¡Correo verificado!",
+      "verifiedDescription": "Tu correo electrónico ha sido verificado. Ahora puedes iniciar sesión en tu cuenta."
+    },
     "errors": {
       "invalidCredentials": "Correo electrónico o contraseña inválidos",
       "emailInUse": "Este correo electrónico ya está registrado",

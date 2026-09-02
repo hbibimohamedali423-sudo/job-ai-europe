@@ -66,6 +66,31 @@
     "logout": {
       "success": "Vous avez été déconnecté"
     },
+    "forgotPassword": {
+      "title": "Réinitialiser votre mot de passe",
+      "subtitle": "Entrez votre adresse e-mail et nous vous enverrons un lien pour réinitialiser votre mot de passe",
+      "email": "Adresse e-mail",
+      "submit": "Envoyer le lien",
+      "backToLogin": "Retour à la connexion",
+      "emailSent": "E-mail de réinitialisation du mot de passe envoyé !",
+      "emailSentDescription": "Vérifiez votre e-mail pour un lien de réinitialisation de mot de passe. Le lien expirera dans 1 heure."
+    },
+    "resetPassword": {
+      "title": "Définir un nouveau mot de passe",
+      "subtitle": "Créez un nouveau mot de passe pour votre compte",
+      "newPassword": "Nouveau mot de passe",
+      "confirmPassword": "Confirmer le nouveau mot de passe",
+      "submit": "Mettre à jour le mot de passe",
+      "success": "Mot de passe mis à jour avec succès !",
+      "successDescription": "Votre mot de passe a été mis à jour. Vous pouvez maintenant vous connecter avec votre nouveau mot de passe.",
+      "redirecting": "Redirection vers la connexion..."
+    },
+    "verification": {
+      "emailSent": "E-mail de vérification envoyé !",
+      "emailSentDescription": "Veuillez vérifier votre e-mail et cliquer sur le lien de vérification pour activer votre compte.",
+      "verified": "E-mail vérifié !",
+      "verifiedDescription": "Votre e-mail a été vérifié. Vous pouvez maintenant vous connecter à votre compte."
+    },
     "errors": {
       "invalidCredentials": "E-mail ou mot de passe invalide",
       "emailInUse": "Cet e-mail est déjà enregistré",

@@ -1,7 +1,7 @@
 import { create } from 'zustand'
 import { persist } from 'zustand/middleware'
 import type { User } from '@supabase/supabase-js'
-import { getCurrentUser } from '@/services/auth'
+import { supabase } from '@/lib/supabase'
 
 type UserRole = 'user' | 'admin' | 'super_admin'
 
@@ -35,14 +35,39 @@ export const useAuthStore = create<AuthState>()(
 
         set({ loading: true })
 
-        const { user } = await getCurrentUser()
+        // Listen for auth state changes
+        supabase.auth.onAuthStateChange((_event, session) => {
+          const user = session?.user ?? null
+          if (user) {
+            const isAdmin = user.user_metadata?.role === 'admin' || user.user_metadata?.role === 'super_admin'
+            const userRole = user.user_metadata?.role || 'user'
+            set({
+              user,
+              session: session ? { access_token: session.access_token, refresh_token: session.refresh_token } : null,
+              isAdmin,
+              userRole,
+            })
+          } else {
+            set({
+              user: null,
+              session: null,
+              isAdmin: false,
+              userRole: 'user',
+            })
+          }
+        })
 
-        if (user) {
+        // Get initial session
+        const { data: { session } } = await supabase.auth.getSession()
+        
+        if (session?.user) {
+          const user = session.user
           const isAdmin = user.user_metadata?.role === 'admin' || user.user_metadata?.role === 'super_admin'
           const userRole = user.user_metadata?.role || 'user'
 
           set({
             user,
+            session: { access_token: session.access_token, refresh_token: session.refresh_token },
             loading: false,
             initialized: true,
             isAdmin,
@@ -51,6 +76,7 @@ export const useAuthStore = create<AuthState>()(
         } else {
           set({
             user: null,
+            session: null,
             loading: false,
             initialized: true,
             isAdmin: false,

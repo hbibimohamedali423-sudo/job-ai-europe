@@ -66,6 +66,31 @@
     "logout": {
       "success": "Sie wurden abgemeldet"
     },
+    "forgotPassword": {
+      "title": "Passwort zurücksetzen",
+      "subtitle": "Geben Sie Ihre E-Mail-Adresse ein und wir senden Ihnen einen Link zum Zurücksetzen Ihres Passworts",
+      "email": "E-Mail-Adresse",
+      "submit": "Link senden",
+      "backToLogin": "Zurück zur Anmeldung",
+      "emailSent": "E-Mail zum Zurücksetzen des Passworts gesendet!",
+      "emailSentDescription": "Überprüfen Sie Ihre E-Mail auf einen Link zum Zurücksetzen Ihres Passworts. Der Link läuft in 1 Stunde ab."
+    },
+    "resetPassword": {
+      "title": "Neues Passwort festlegen",
+      "subtitle": "Erstellen Sie ein neues Passwort für Ihr Konto",
+      "newPassword": "Neues Passwort",
+      "confirmPassword": "Neues Passwort bestätigen",
+      "submit": "Passwort aktualisieren",
+      "success": "Passwort erfolgreich aktualisiert!",
+      "successDescription": "Ihr Passwort wurde aktualisiert. Sie können sich jetzt mit Ihrem neuen Passwort anmelden.",
+      "redirecting": "Weiterleitung zur Anmeldung..."
+    },
+    "verification": {
+      "emailSent": "Bestätigungs-E-Mail gesendet!",
+      "emailSentDescription": "Bitte überprüfen Sie Ihre E-Mail und klicken Sie auf den Bestätigungslink, um Ihr Konto zu aktivieren.",
+      "verified": "E-Mail verifiziert!",
+      "verifiedDescription": "Ihre E-Mail wurde verifiziert. Sie können sich jetzt in Ihrem Konto anmelden."
+    },
     "errors": {
       "invalidCredentials": "Ungültige E-Mail oder Passwort",
       "emailInUse": "Diese E-Mail ist bereits registriert",

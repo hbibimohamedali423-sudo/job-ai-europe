@@ -66,6 +66,31 @@
     "logout": {
       "success": "You have been logged out"
     },
+    "forgotPassword": {
+      "title": "Reset your password",
+      "subtitle": "Enter your email address and we'll send you a link to reset your password",
+      "email": "Email address",
+      "submit": "Send reset link",
+      "backToLogin": "Back to login",
+      "emailSent": "Password reset email sent!",
+      "emailSentDescription": "Check your email for a link to reset your password. The link will expire in 1 hour."
+    },
+    "resetPassword": {
+      "title": "Set new password",
+      "subtitle": "Create a new password for your account",
+      "newPassword": "New password",
+      "confirmPassword": "Confirm new password",
+      "submit": "Update password",
+      "success": "Password updated successfully!",
+      "successDescription": "Your password has been updated. You can now sign in with your new password.",
+      "redirecting": "Redirecting to login..."
+    },
+    "verification": {
+      "emailSent": "Verification email sent!",
+      "emailSentDescription": "Please check your email and click the verification link to activate your account.",
+      "verified": "Email verified!",
+      "verifiedDescription": "Your email has been verified. You can now sign in to your account."
+    },
     "errors": {
       "invalidCredentials": "Invalid email or password",
       "emailInUse": "This email is already registered",
