@@ -198,7 +198,9 @@
       "filters": "Filters",
       "results": "{{count}} jobs found",
       "noResults": "No jobs found",
-      "adjustFilters": "Try adjusting your filters"
+      "adjustFilters": "Try adjusting your filters",
+      "search": "Search",
+      "loadMore": "Load More"
     },
     "filters": {
       "title": "Filter Jobs",
@@ -213,7 +215,19 @@
       "any": "Any",
       "last24hours": "Last 24 hours",
       "lastWeek": "Last week",
-      "lastMonth": "Last month"
+      "lastMonth": "Last month",
+      "countryPlaceholder": "e.g., Germany",
+      "cityPlaceholder": "e.g., Berlin",
+      "allWorkModes": "All Work Modes",
+      "employmentType": "Employment Type",
+      "allEmploymentTypes": "All Employment Types",
+      "experienceLevel": "Experience Level",
+      "allLevels": "All Levels",
+      "salaryRange": "Salary Range",
+      "minSalary": "Min",
+      "maxSalary": "Max",
+      "reset": "Reset",
+      "apply": "Apply Filters"
     },
     "card": {
       "posted": "Posted {{date}}",
@@ -237,10 +251,44 @@
       "posted": "Posted",
       "source": "Source"
     },
-    "saved": {
-      "title": "Saved Jobs",
-      "empty": "No saved jobs yet",
-      "remove": "Remove from saved"
+    "saved": "Saved",
+    "authRequired": {
+      "title": "Login Required",
+      "message": "Please login to access this feature"
+    },
+    "notFound": {
+      "title": "Job Not Found",
+      "message": "The requested job could not be found"
+    },
+    "backToJobs": "Back to Jobs",
+    "applyNow": "Apply Now",
+    "saveJob": "Save Job",
+    "description": "Job Description",
+    "requiredSkills": "Required Skills",
+    "preferred": "Preferred",
+    "jobDetails": "Job Details",
+    "postedOn": "Posted on {{date}}",
+    "viewOriginal": "View Original Posting",
+    "source": "Source",
+    "experienceLevel": {
+      "label": "Experience Level",
+      "entry": "Entry Level",
+      "mid": "Mid Level",
+      "senior": "Senior Level",
+      "lead": "Lead",
+      "executive": "Executive"
+    },
+    "workMode": {
+      "remote": "Remote",
+      "hybrid": "Hybrid",
+      "onSite": "On-site"
+    },
+    "employmentType": {
+      "fullTime": "Full-time",
+      "partTime": "Part-time",
+      "contract": "Contract",
+      "internship": "Internship",
+      "temporary": "Temporary"
     }
   },
   "matching": {
