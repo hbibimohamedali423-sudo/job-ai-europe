@@ -1,0 +1,366 @@
+{
+  "common": {
+    "appName": "Job AI Europe",
+    "loading": "جاري التحميل...",
+    "error": "حدث خطأ",
+    "retry": "حاول مرة أخرى",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "create": "إنشاء",
+    "search": "بحث",
+    "filter": "تصفية",
+    "sort": "ترتيب",
+    "clear": "مسح",
+    "apply": "تطبيق",
+    "close": "إغلاق",
+    "back": "رجوع",
+    "next": "التالي",
+    "previous": "السابق",
+    "submit": "إرسال",
+    "confirm": "تأكيد",
+    "yes": "نعم",
+    "no": "لا",
+    "or": "أو",
+    "and": "و",
+    "required": "مطلوب",
+    "optional": "اختياري"
+  },
+  "nav": {
+    "home": "الرئيسية",
+    "jobs": "الوظائف",
+    "applications": "التقديمات",
+    "profile": "الملف الشخصي",
+    "assistant": "المساعد",
+    "admin": "الإدارة",
+    "settings": "الإعدادات",
+    "logout": "تسجيل الخروج",
+    "login": "تسجيل الدخول",
+    "register": "التسجيل"
+  },
+  "auth": {
+    "login": {
+      "title": "مرحباً بعودتك",
+      "subtitle": "سجل دخولك إلى حسابك",
+      "email": "البريد الإلكتروني",
+      "password": "كلمة المرور",
+      "rememberMe": "تذكرني",
+      "forgotPassword": "نسيت كلمة المرور؟",
+      "submit": "تسجيل الدخول",
+      "noAccount": "ليس لديك حساب؟",
+      "signUp": "سجل الآن"
+    },
+    "register": {
+      "title": "إنشاء حسابك",
+      "subtitle": "ابدأ رحلة البحث عن عمل",
+      "fullName": "الاسم الكامل",
+      "email": "البريد الإلكتروني",
+      "password": "كلمة المرور",
+      "confirmPassword": "تأكيد كلمة المرور",
+      "terms": "أوافق على شروط الخدمة وسياسة الخصوصية",
+      "submit": "إنشاء حساب",
+      "hasAccount": "لديك حساب بالفعل؟",
+      "signIn": "تسجيل الدخول"
+    },
+    "logout": {
+      "success": "تم تسجيل الخروج بنجاح"
+    },
+    "errors": {
+      "invalidCredentials": "بريد إلكتروني أو كلمة مرور غير صحيحة",
+      "emailInUse": "هذا البريد الإلكتروني مسجل بالفعل",
+      "weakPassword": "يجب أن تتكون كلمة المرور من 8 أحرف على الأقل",
+      "passwordMismatch": "كلمات المرور غير متطابقة",
+      "required": "هذا الحقل مطلوب",
+      "invalidEmail": "الرجاء إدخال بريد إلكتروني صحيح"
+    }
+  },
+  "profile": {
+    "title": "الملف المهني",
+    "subtitle": "ابنِ هويتك المهنية",
+    "personal": {
+      "title": "المعلومات الشخصية",
+      "fullName": "الاسم الكامل",
+      "email": "البريد الإلكتروني",
+      "phone": "الهاتف",
+      "country": "الدولة",
+      "city": "المدينة"
+    },
+    "professional": {
+      "title": "المعلومات المهنية",
+      "professionalTitle": "المسمى الوظيفي",
+      "summary": "ملخص مهني"
+    },
+    "experience": {
+      "title": "الخبرة العملية",
+      "add": "إضافة خبرة",
+      "company": "الشركة",
+      "position": "المنصب",
+      "location": "الموقع",
+      "startDate": "تاريخ البدء",
+      "endDate": "تاريخ الانتهاء",
+      "current": "أعمل حالياً هنا",
+      "description": "الوصف",
+      "noExperience": "لم يتم إضافة خبرة عملية بعد"
+    },
+    "education": {
+      "title": "التعليم",
+      "add": "إضافة تعليم",
+      "institution": "المؤسسة",
+      "degree": "الشهادة",
+      "field": "التخصص",
+      "startDate": "تاريخ البدء",
+      "endDate": "تاريخ الانتهاء",
+      "description": "الوصف",
+      "noEducation": "لم يتم إضافة تعليم بعد"
+    },
+    "certifications": {
+      "title": "الشهادات",
+      "add": "إضافة شهادة",
+      "name": "اسم الشهادة",
+      "issuer": "الجهة المانحة",
+      "issueDate": "تاريخ الإصدار",
+      "expiryDate": "تاريخ الانتهاء",
+      "credentialId": "رقم الشهادة",
+      "noCertifications": "لم يتم إضافة شهادات بعد"
+    },
+    "languages": {
+      "title": "اللغات",
+      "add": "إضافة لغة",
+      "language": "اللغة",
+      "level": "مستوى الإتقان",
+      "noLanguages": "لم يتم إضافة لغات بعد"
+    },
+    "skills": {
+      "title": "المهارات",
+      "add": "إضافة مهارة",
+      "name": "اسم المهارة",
+      "level": "مستوى المهارة",
+      "years": "سنوات الخبرة",
+      "noSkills": "لم يتم إضافة مهارات بعد"
+    },
+    "preferences": {
+      "title": "تفضيلات الوظيفة",
+      "desiredTitle": "المسمى الوظيفي المطلوب",
+      "desiredCountry": "الدولة المطلوبة",
+      "desiredCity": "المدينة المطلوبة",
+      "workMode": "نوع العمل",
+      "remote": "عن بعد",
+      "hybrid": "هجين",
+      "onsite": "في الموقع",
+      "employmentType": "نوع التوظيف",
+      "fullTime": "دوام كامل",
+      "partTime": "دوام جزئي",
+      "contract": "عقد",
+      "salary": "نطاق الراتب",
+      "experienceLevel": "مستوى الخبرة",
+      "entry": "مبتدئ",
+      "mid": "متوسط",
+      "senior": "مenior",
+      "lead": "مدير"
+    },
+    "completion": {
+      "title": "اكتمال الملف الشخصي",
+      "complete": "ملفك الشخصي مكتمل بنسبة {{percent}}%",
+      "improve": "أكمل ملفك للحصول على وظائف أفضل"
+    }
+  },
+  "jobs": {
+    "title": "البحث عن عمل",
+    "subtitle": "اعثر على فرصتك القادمة",
+    "search": {
+      "placeholder": "ابحث عن وظائف، مسميات، شركات...",
+      "filters": "التصفية",
+      "results": "تم العثور على {{count}} وظيفة",
+      "noResults": "لم يتم العثور على وظائف",
+      "adjustFilters": "حاول تعديل الفلاتر"
+    },
+    "filters": {
+      "title": "تصفية الوظائف",
+      "location": "الموقع",
+      "country": "الدولة",
+      "city": "المدينة",
+      "workMode": "نوع العمل",
+      "jobType": "نوع الوظيفة",
+      "experience": "مستوى الخبرة",
+      "salary": "نطاق الراتب",
+      "postedWithin": "نشرت خلال",
+      "any": "أي",
+      "last24hours": "آخر 24 ساعة",
+      "lastWeek": "آخر أسبوع",
+      "lastMonth": "آخر شهر"
+    },
+    "card": {
+      "posted": "نشرت {{date}}",
+      "salary": "الراتب: {{range}}",
+      "remote": "عن بعد",
+      "hybrid": "هجين",
+      "onsite": "في الموقع",
+      "apply": "قدم الآن",
+      "save": "حفظ",
+      "saved": "تم الحفظ",
+      "match": "{{percent}}% تطابق"
+    },
+    "details": {
+      "about": "عن هذه الوظيفة",
+      "requirements": "المتطلبات",
+      "benefits": "المزايا",
+      "company": "الشركة",
+      "location": "الموقع",
+      "salary": "الراتب",
+      "type": "نوع الوظيفة",
+      "posted": "نشرت",
+      "source": "المصدر"
+    },
+    "saved": {
+      "title": "الوظائف المحفوظة",
+      "empty": "لا توجد وظائف محفوظة",
+      "remove": "إزالة من المحفوظات"
+    }
+  },
+  "matching": {
+    "title": "تحليل التطابق",
+    "subtitle": "فهم مدى ملائمتك",
+    "score": {
+      "title": "درجة التوافق",
+      "overall": "التوافق العام",
+      "skills": "المهارات",
+      "experience": "الخبرة",
+      "education": "التعليم",
+      "languages": "اللغات",
+      "location": "الموقع"
+    },
+    "strengths": {
+      "title": "نقاط قوتك",
+      "description": "ما يجعلك مرشحاً مناسباً"
+    },
+    "gaps": {
+      "title": "الفجوات والمهارات الناقصة",
+      "description": "مجالات يمكن تحسينها"
+    },
+    "recommendations": {
+      "title": "التوصيات",
+      "description": "كيف تحسن تطابقك"
+    }
+  },
+  "applications": {
+    "title": "تقديماتي",
+    "subtitle": "تتبع تقديماتك",
+    "status": {
+      "draft": "مسودة",
+      "applied": "تم التقديم",
+      "pending": "قيد الانتظار",
+      "interview": "مقابلة",
+      "rejected": "مرفوض",
+      "accepted": "مقبول"
+    },
+    "generate": {
+      "title": "إنشاء مواد التقديم",
+      "cv": "السيرة الذاتية المخصصة",
+      "coverLetter": "خطاب التغطية",
+      "message": "رسالة التقديم",
+      "generate": "إنشاء بالذكاء الاصطناعي",
+      "regenerate": "إعادة الإنشاء",
+      "review": "المراجعة والتعديل",
+      "approve": "الموافقة والحفظ"
+    },
+    "empty": {
+      "title": "لا توجد تقديمات بعد",
+      "description": "قدم على وظائف لتتبع تقدمك"
+    }
+  },
+  "assistant": {
+    "title": "المساعد الذكي",
+    "subtitle": "مساعدك المهني",
+    "placeholder": "اسألني أي شيء عن البحث عن عمل...",
+    "suggestions": {
+      "helpProfile": "ساعدني في تحسين ملفتي",
+      "explainJob": "اشرح متطلبات هذه الوظيفة",
+      "improveCV": "كيف أحسن سيرتي الذاتية؟",
+      "prepareInterview": "ساعدني في التحضير لمقابلة"
+    }
+  },
+  "admin": {
+    "title": "لوحة الإدارة",
+    "dashboard": {
+      "title": "لوحة التحكم",
+      "subtitle": "نظرة عامة على النظام",
+      "users": "المستخدمين",
+      "jobs": "الوظائف",
+      "applications": "التقديمات",
+      "sources": "مصادر الوظائف"
+    },
+    "users": {
+      "title": "إدارة المستخدمين",
+      "subtitle": "إدارة مستخدمي المنصة",
+      "search": "بحث عن مستخدمين...",
+      "name": "الاسم",
+      "email": "البريد الإلكتروني",
+      "role": "الدور",
+      "status": "الحالة",
+      "created": "تاريخ الإنشاء",
+      "actions": "الإجراءات",
+      "active": "نشط",
+      "suspended": "موقوف",
+      "suspend": "إيقاف",
+      "activate": "تفعيل",
+      "viewProfile": "عرض الملف"
+    },
+    "jobs": {
+      "title": "إدارة الوظائف",
+      "subtitle": "مراقبة وإدارة الوظائف",
+      "total": "إجمالي الوظائف",
+      "active": "الوظائف النشطة",
+      "duplicates": "المكررة",
+      "invalid": "غير صالحة"
+    },
+    "sources": {
+      "title": "مصادر الوظائف",
+      "subtitle": "إدارة مزودي الوظائف",
+      "add": "إضافة مصدر",
+      "name": "اسم المصدر",
+      "type": "نوع المزود",
+      "status": "الحالة",
+      "lastSync": "آخر مزامنة",
+      "enabled": "مفعل",
+      "disabled": "معطل",
+      "enable": "تفعيل",
+      "disable": "تعطيل",
+      "configure": "تكوين",
+      "test": "اختبار الاتصال",
+      "sync": "مزامنة الآن"
+    },
+    "ai": {
+      "title": "إدارة الذكاء الاصطناعي",
+      "subtitle": "تكوين إعدادات الذكاء الاصطناعي",
+      "model": "نموذج الذكاء الاصطناعي",
+      "prompts": "قوالب الطلبات",
+      "usage": "إحصائيات الاستخدام",
+      "errors": "سجل الأخطاء"
+    },
+    "settings": {
+      "title": "إعدادات النظام",
+      "subtitle": "تكوين سلوك النظام"
+    },
+    "audit": {
+      "title": "سجلات المراجعة",
+      "subtitle": "تتبع الإجراءات الإدارية"
+    }
+  },
+  "errors": {
+    "generic": "حدث خطأ ما. يرجى المحاولة مرة أخرى.",
+    "network": "خطأ في الشبكة. يرجى التحقق من اتصالك.",
+    "unauthorized": "ليس لديك صلاحية القيام بهذا الإجراء.",
+    "notFound": "المورد المطلوب غير موجود.",
+    "validation": "يرجى التحقق من إدخالك والمحاولة مرة أخرى.",
+    "serverError": "خطأ في الخادم. يرجى المحاولة لاحقاً."
+  },
+  "empty": {
+    "title": "لا شيء هنا بعد",
+    "description": "ابدأ بإضافة بعض المحتوى"
+  },
+  "loading": {
+    "title": "جاري التحميل",
+    "description": "يرجى الانتظار..."
+  }
+}

@@ -1,0 +1,366 @@
+{
+  "common": {
+    "appName": "Job AI Europe",
+    "loading": "Wird geladen...",
+    "error": "Ein Fehler ist aufgetreten",
+    "retry": "Erneut versuchen",
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "delete": "Löschen",
+    "edit": "Bearbeiten",
+    "create": "Erstellen",
+    "search": "Suchen",
+    "filter": "Filtern",
+    "sort": "Sortieren",
+    "clear": "Löschen",
+    "apply": "Anwenden",
+    "close": "Schließen",
+    "back": "Zurück",
+    "next": "Weiter",
+    "previous": "Zurück",
+    "submit": "Absenden",
+    "confirm": "Bestätigen",
+    "yes": "Ja",
+    "no": "Nein",
+    "or": "oder",
+    "and": "und",
+    "required": "Erforderlich",
+    "optional": "Optional"
+  },
+  "nav": {
+    "home": "Startseite",
+    "jobs": "Stellen",
+    "applications": "Bewerbungen",
+    "profile": "Profil",
+    "assistant": "Assistent",
+    "admin": "Admin",
+    "settings": "Einstellungen",
+    "logout": "Abmelden",
+    "login": "Anmelden",
+    "register": "Registrieren"
+  },
+  "auth": {
+    "login": {
+      "title": "Willkommen zurück",
+      "subtitle": "Melden Sie sich bei Ihrem Konto an",
+      "email": "E-Mail-Adresse",
+      "password": "Passwort",
+      "rememberMe": "Angemeldet bleiben",
+      "forgotPassword": "Passwort vergessen?",
+      "submit": "Anmelden",
+      "noAccount": "Noch kein Konto?",
+      "signUp": "Registrieren"
+    },
+    "register": {
+      "title": "Konto erstellen",
+      "subtitle": "Starten Sie Ihre Jobsuche",
+      "fullName": "Vollständiger Name",
+      "email": "E-Mail-Adresse",
+      "password": "Passwort",
+      "confirmPassword": "Passwort bestätigen",
+      "terms": "Ich stimme den Nutzungsbedingungen und der Datenschutzerklärung zu",
+      "submit": "Konto erstellen",
+      "hasAccount": "Bereits ein Konto?",
+      "signIn": "Anmelden"
+    },
+    "logout": {
+      "success": "Sie wurden abgemeldet"
+    },
+    "errors": {
+      "invalidCredentials": "Ungültige E-Mail oder Passwort",
+      "emailInUse": "Diese E-Mail ist bereits registriert",
+      "weakPassword": "Das Passwort muss mindestens 8 Zeichen haben",
+      "passwordMismatch": "Passwörter stimmen nicht überein",
+      "required": "Dieses Feld ist erforderlich",
+      "invalidEmail": "Bitte geben Sie eine gültige E-Mail-Adresse ein"
+    }
+  },
+  "profile": {
+    "title": "Professionelles Profil",
+    "subtitle": "Erstellen Sie Ihre professionelle Identität",
+    "personal": {
+      "title": "Persönliche Informationen",
+      "fullName": "Vollständiger Name",
+      "email": "E-Mail",
+      "phone": "Telefon",
+      "country": "Land",
+      "city": "Stadt"
+    },
+    "professional": {
+      "title": "Berufliche Informationen",
+      "professionalTitle": "Berufsbezeichnung",
+      "summary": "Professionelles Profil"
+    },
+    "experience": {
+      "title": "Berufserfahrung",
+      "add": "Erfahrung hinzufügen",
+      "company": "Unternehmen",
+      "position": "Position",
+      "location": "Standort",
+      "startDate": "Startdatum",
+      "endDate": "Enddatum",
+      "current": "Derzeit hier tätig",
+      "description": "Beschreibung",
+      "noExperience": "Noch keine Berufserfahrung hinzugefügt"
+    },
+    "education": {
+      "title": "Ausbildung",
+      "add": "Bildung hinzufügen",
+      "institution": "Institution",
+      "degree": "Abschluss",
+      "field": "Fachgebiet",
+      "startDate": "Startdatum",
+      "endDate": "Enddatum",
+      "description": "Beschreibung",
+      "noEducation": "Noch keine Ausbildung hinzugefügt"
+    },
+    "certifications": {
+      "title": "Zertifizierungen",
+      "add": "Zertifizierung hinzufügen",
+      "name": "Zertifizierungsname",
+      "issuer": "Ausstellende Organisation",
+      "issueDate": "Ausstellungsdatum",
+      "expiryDate": "Ablaufdatum",
+      "credentialId": "Zertifikat-ID",
+      "noCertifications": "Noch keine Zertifizierungen hinzugefügt"
+    },
+    "languages": {
+      "title": "Sprachen",
+      "add": "Sprache hinzufügen",
+      "language": "Sprache",
+      "level": "Sprachniveau",
+      "noLanguages": "Noch keine Sprachen hinzugefügt"
+    },
+    "skills": {
+      "title": "Fähigkeiten",
+      "add": "Fähigkeit hinzufügen",
+      "name": "Fähigkeitsname",
+      "level": "Fähigkeitsniveau",
+      "years": "Jahre Erfahrung",
+      "noSkills": "Noch keine Fähigkeiten hinzugefügt"
+    },
+    "preferences": {
+      "title": "Stellenvorlieben",
+      "desiredTitle": "Gewünschte Stelle",
+      "desiredCountry": "Gewünschtes Land",
+      "desiredCity": "Gewünschte Stadt",
+      "workMode": "Arbeitsmodus",
+      "remote": "Remote",
+      "hybrid": "Hybrid",
+      "onsite": "Vor Ort",
+      "employmentType": "Beschäftigungsart",
+      "fullTime": "Vollzeit",
+      "partTime": "Teilzeit",
+      "contract": "Vertrag",
+      "salary": "Gehaltsbereich",
+      "experienceLevel": "Erfahrungsstufe",
+      "entry": "Einstieg",
+      "mid": "Mittelstufe",
+      "senior": "Senior",
+      "lead": "Leitung/Manager"
+    },
+    "completion": {
+      "title": "Profilvollständigkeit",
+      "complete": "Ihr Profil ist zu {{percent}}% vollständig",
+      "improve": "Vervollständigen Sie Ihr Profil für bessere Stellenangebote"
+    }
+  },
+  "jobs": {
+    "title": "Stellensuche",
+    "subtitle": "Finden Sie Ihre nächste Gelegenheit",
+    "search": {
+      "placeholder": "Stellen, Titel, Unternehmen suchen...",
+      "filters": "Filter",
+      "results": "{{count}} Stellen gefunden",
+      "noResults": "Keine Stellen gefunden",
+      "adjustFilters": "Versuchen Sie, Ihre Filter anzupassen"
+    },
+    "filters": {
+      "title": "Stellen filtern",
+      "location": "Standort",
+      "country": "Land",
+      "city": "Stadt",
+      "workMode": "Arbeitsmodus",
+      "jobType": "Stellentyp",
+      "experience": "Erfahrungsstufe",
+      "salary": "Gehaltsbereich",
+      "postedWithin": "Veröffentlicht innerhalb",
+      "any": "Beliebig",
+      "last24hours": "Letzte 24 Stunden",
+      "lastWeek": "Letzte Woche",
+      "lastMonth": "Letzter Monat"
+    },
+    "card": {
+      "posted": "Veröffentlicht {{date}}",
+      "salary": "Gehalt: {{range}}",
+      "remote": "Remote",
+      "hybrid": "Hybrid",
+      "onsite": "Vor Ort",
+      "apply": "Jetzt bewerben",
+      "save": "Speichern",
+      "saved": "Gespeichert",
+      "match": "{{percent}}% Match"
+    },
+    "details": {
+      "about": "Über diese Stelle",
+      "requirements": "Anforderungen",
+      "benefits": "Vorteile",
+      "company": "Unternehmen",
+      "location": "Standort",
+      "salary": "Gehalt",
+      "type": "Stellentyp",
+      "posted": "Veröffentlicht",
+      "source": "Quelle"
+    },
+    "saved": {
+      "title": "Gespeicherte Stellen",
+      "empty": "Noch keine gespeicherten Stellen",
+      "remove": "Aus gespeicherten entfernen"
+    }
+  },
+  "matching": {
+    "title": "Stellenanalyse",
+    "subtitle": "Verstehen Sie, wie Sie passen",
+    "score": {
+      "title": "Kompatibilitätswert",
+      "overall": "Gesamte Übereinstimmung",
+      "skills": "Fähigkeiten",
+      "experience": "Erfahrung",
+      "education": "Bildung",
+      "languages": "Sprachen",
+      "location": "Standort"
+    },
+    "strengths": {
+      "title": "Ihre Stärken",
+      "description": "Was Sie geeignet macht"
+    },
+    "gaps": {
+      "title": "Lücken & fehlende Fähigkeiten",
+      "description": "Bereiche zur Verbesserung"
+    },
+    "recommendations": {
+      "title": "Empfehlungen",
+      "description": "So verbessern Sie Ihre Übereinstimmung"
+    }
+  },
+  "applications": {
+    "title": "Meine Bewerbungen",
+    "subtitle": "Verfolgen Sie Ihre Bewerbungen",
+    "status": {
+      "draft": "Entwurf",
+      "applied": "Beworben",
+      "pending": "Ausstehend",
+      "interview": "Interview",
+      "rejected": "Abgelehnt",
+      "accepted": "Angenommen"
+    },
+    "generate": {
+      "title": "Bewerbungsunterlagen generieren",
+      "cv": "Tailored CV",
+      "coverLetter": "Anschreiben",
+      "message": "Bewerbungsnachricht",
+      "generate": "Mit KI generieren",
+      "regenerate": "Neu generieren",
+      "review": "Überprüfen & Bearbeiten",
+      "approve": "Genehmigen & Speichern"
+    },
+    "empty": {
+      "title": "Noch keine Bewerbungen",
+      "description": "Bewerben Sie sich auf Stellen, um Ihren Fortschritt zu verfolgen"
+    }
+  },
+  "assistant": {
+    "title": "KI-Assistent",
+    "subtitle": "Ihr Karrierehelfer",
+    "placeholder": "Fragen Sie mich alles über Ihre Jobsuche...",
+    "suggestions": {
+      "helpProfile": "Helfen Sie mir, mein Profil zu verbessern",
+      "explainJob": "Erklären Sie diese Stellenanforderungen",
+      "improveCV": "Wie kann ich mein CV verbessern?",
+      "prepareInterview": "Helfen Sie mir, mich auf ein Interview vorzubereiten"
+    }
+  },
+  "admin": {
+    "title": "Admin-Panel",
+    "dashboard": {
+      "title": "Dashboard",
+      "subtitle": "Systemübersicht",
+      "users": "Benutzer",
+      "jobs": "Stellen",
+      "applications": "Bewerbungen",
+      "sources": "Stellenquellen"
+    },
+    "users": {
+      "title": "Benutzerverwaltung",
+      "subtitle": "Plattformbenutzer verwalten",
+      "search": "Benutzer suchen...",
+      "name": "Name",
+      "email": "E-Mail",
+      "role": "Rolle",
+      "status": "Status",
+      "created": "Erstellt",
+      "actions": "Aktionen",
+      "active": "Aktiv",
+      "suspended": "Suspendiert",
+      "suspend": "Suspendieren",
+      "activate": "Aktivieren",
+      "viewProfile": "Profil anzeigen"
+    },
+    "jobs": {
+      "title": "Stellenverwaltung",
+      "subtitle": "Stellen überwachen und verwalten",
+      "total": "Gesamte Stellen",
+      "active": "Aktive Stellen",
+      "duplicates": "Duplikate",
+      "invalid": "Ungültig"
+    },
+    "sources": {
+      "title": "Stellenquellen",
+      "subtitle": "Stellenanbieter verwalten",
+      "add": "Quelle hinzufügen",
+      "name": "Quellenname",
+      "type": "Anbietertyp",
+      "status": "Status",
+      "lastSync": "Letzte Synchronisierung",
+      "enabled": "Aktiviert",
+      "disabled": "Deaktiviert",
+      "enable": "Aktivieren",
+      "disable": "Deaktivieren",
+      "configure": "Konfigurieren",
+      "test": "Verbindung testen",
+      "sync": "Jetzt synchronisieren"
+    },
+    "ai": {
+      "title": "KI-Verwaltung",
+      "subtitle": "KI-Einstellungen konfigurieren",
+      "model": "KI-Modell",
+      "prompts": "Prompt-Vorlagen",
+      "usage": "Nutzungsstatistiken",
+      "errors": "Fehlerprotokoll"
+    },
+    "settings": {
+      "title": "Systemeinstellungen",
+      "subtitle": "Systemverhalten konfigurieren"
+    },
+    "audit": {
+      "title": "Audit-Protokolle",
+      "subtitle": "Administrative Aktionen verfolgen"
+    }
+  },
+  "errors": {
+    "generic": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.",
+    "network": "Netzwerkfehler. Bitte überprüfen Sie Ihre Verbindung.",
+    "unauthorized": "Sie sind nicht berechtigt, diese Aktion durchzuführen.",
+    "notFound": "Die angeforderte Ressource wurde nicht gefunden.",
+    "validation": "Bitte überprüfen Sie Ihre Eingabe und versuchen Sie es erneut.",
+    "serverError": "Serverfehler. Bitte versuchen Sie es später erneut."
+  },
+  "empty": {
+    "title": "Noch nichts hier",
+    "description": "Beginnen Sie, indem Sie Inhalte hinzufügen"
+  },
+  "loading": {
+    "title": "Wird geladen",
+    "description": "Bitte warten Sie..."
+  }
+}

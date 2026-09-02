@@ -1,0 +1,14 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "composite": true,
+    "jsx": "react-jsx",
+    "outDir": "../../dist/apps/web",
+    "rootDir": "./src",
+    "types": ["vite/client", "vitest/globals"],
+    "resolveJsonModule": true,
+    "allowJs": true
+  },
+  "include": ["src/**/*", "src/**/*.css", "src/**/*.json"],
+  "exclude": ["node_modules", "dist"]
+}

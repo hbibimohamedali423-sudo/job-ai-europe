@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./apps/web/src/*"],
+      "@job-ai/shared": ["./packages/shared/src/*"],
+      "@job-ai/types": ["./packages/types/src/*"],
+      "@job-ai/ui": ["./packages/ui/src/*"],
+      "@job-ai/config": ["./packages/config/src/*"]
+    },
+    "types": ["node"]
+  },
+  "include": ["apps/**/*", "packages/**/*", "tests/**/*"],
+  "exclude": ["node_modules", "dist", ".turbo"]
+}

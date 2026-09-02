@@ -1,0 +1,366 @@
+{
+  "common": {
+    "appName": "Job AI Europe",
+    "loading": "Caricamento...",
+    "error": "Si è verificato un errore",
+    "retry": "Riprova",
+    "save": "Salva",
+    "cancel": "Annulla",
+    "delete": "Elimina",
+    "edit": "Modifica",
+    "create": "Crea",
+    "search": "Cerca",
+    "filter": "Filtra",
+    "sort": "Ordina",
+    "clear": "Cancella",
+    "apply": "Applica",
+    "close": "Chiudi",
+    "back": "Indietro",
+    "next": "Avanti",
+    "previous": "Precedente",
+    "submit": "Invia",
+    "confirm": "Conferma",
+    "yes": "Sì",
+    "no": "No",
+    "or": "o",
+    "and": "e",
+    "required": "Obbligatorio",
+    "optional": "Facoltativo"
+  },
+  "nav": {
+    "home": "Home",
+    "jobs": "Lavori",
+    "applications": "Candidature",
+    "profile": "Profilo",
+    "assistant": "Assistente",
+    "admin": "Admin",
+    "settings": "Impostazioni",
+    "logout": "Disconnetti",
+    "login": "Accedi",
+    "register": "Registrati"
+  },
+  "auth": {
+    "login": {
+      "title": "Bentornato",
+      "subtitle": "Accedi al tuo account",
+      "email": "Indirizzo email",
+      "password": "Password",
+      "rememberMe": "Ricordami",
+      "forgotPassword": "Password dimenticata?",
+      "submit": "Accedi",
+      "noAccount": "Non hai un account?",
+      "signUp": "Registrati"
+    },
+    "register": {
+      "title": "Crea il tuo account",
+      "subtitle": "Inizia la tua ricerca di lavoro",
+      "fullName": "Nome completo",
+      "email": "Indirizzo email",
+      "password": "Password",
+      "confirmPassword": "Conferma password",
+      "terms": "Accetto i Termini di servizio e l'Informativa sulla privacy",
+      "submit": "Crea account",
+      "hasAccount": "Hai già un account?",
+      "signIn": "Accedi"
+    },
+    "logout": {
+      "success": "Sei stato disconnesso"
+    },
+    "errors": {
+      "invalidCredentials": "Email o password non validi",
+      "emailInUse": "Questa email è già registrata",
+      "weakPassword": "La password deve contenere almeno 8 caratteri",
+      "passwordMismatch": "Le password non corrispondono",
+      "required": "Questo campo è obbligatorio",
+      "invalidEmail": "Inserisci un indirizzo email valido"
+    }
+  },
+  "profile": {
+    "title": "Profilo Professionale",
+    "subtitle": "Costruisci la tua identità professionale",
+    "personal": {
+      "title": "Informazioni Personali",
+      "fullName": "Nome Completo",
+      "email": "Email",
+      "phone": "Telefono",
+      "country": "Paese",
+      "city": "Città"
+    },
+    "professional": {
+      "title": "Informazioni Professionali",
+      "professionalTitle": "Titolo Professionale",
+      "summary": "Sommario Professionale"
+    },
+    "experience": {
+      "title": "Esperienza Lavorativa",
+      "add": "Aggiungi Esperienza",
+      "company": "Azienda",
+      "position": "Posizione",
+      "location": "Luogo",
+      "startDate": "Data di Inizio",
+      "endDate": "Data di Fine",
+      "current": "Lavoro attuale",
+      "description": "Descrizione",
+      "noExperience": "Nessuna esperienza lavorativa aggiunta"
+    },
+    "education": {
+      "title": "Istruzione",
+      "add": "Aggiungi Istruzione",
+      "institution": "Istituzione",
+      "degree": "Laurea",
+      "field": "Campo di Studio",
+      "startDate": "Data di Inizio",
+      "endDate": "Data di Fine",
+      "description": "Descrizione",
+      "noEducation": "Nessuna istruzione aggiunta"
+    },
+    "certifications": {
+      "title": "Certificazioni",
+      "add": "Aggiungi Certificazione",
+      "name": "Nome Certificazione",
+      "issuer": "Ente Emittente",
+      "issueDate": "Data di Rilascio",
+      "expiryDate": "Data di Scadenza",
+      "credentialId": "ID Credenziale",
+      "noCertifications": "Nessuna certificazione aggiunta"
+    },
+    "languages": {
+      "title": "Lingue",
+      "add": "Aggiungi Lingua",
+      "language": "Lingua",
+      "level": "Livello di Competenza",
+      "noLanguages": "Nessuna lingua aggiunta"
+    },
+    "skills": {
+      "title": "Competenze",
+      "add": "Aggiungi Competenza",
+      "name": "Nome Competenza",
+      "level": "Livello di Competenza",
+      "years": "Anni di Esperienza",
+      "noSkills": "Nessuna competenza aggiunta"
+    },
+    "preferences": {
+      "title": "Preferenze di Lavoro",
+      "desiredTitle": "Titolo Desiderato",
+      "desiredCountry": "Paese Desiderato",
+      "desiredCity": "Città Desiderata",
+      "workMode": "Modalità di Lavoro",
+      "remote": "Da Remoto",
+      "hybrid": "Ibrido",
+      "onsite": "In Sede",
+      "employmentType": "Tipo di Impiego",
+      "fullTime": "Tempo Pieno",
+      "partTime": "Part-time",
+      "contract": "Contratto",
+      "salary": "Fascia Salariale",
+      "experienceLevel": "Livello di Esperienza",
+      "entry": "Entry Level",
+      "mid": "Mid Level",
+      "senior": "Senior",
+      "lead": "Responsabile"
+    },
+    "completion": {
+      "title": "Completezza del Profilo",
+      "complete": "Il tuo profilo è completo al {{percent}}%",
+      "improve": "Completa il tuo profilo per ottenere匹配 migliori"
+    }
+  },
+  "jobs": {
+    "title": "Ricerca di Lavoro",
+    "subtitle": "Trova la tua prossima opportunità",
+    "search": {
+      "placeholder": "Cerca lavori, titoli, aziende...",
+      "filters": "Filtri",
+      "results": "{{count}} lavori trovati",
+      "noResults": "Nessun lavoro trovato",
+      "adjustFilters": "Prova a modificare i filtri"
+    },
+    "filters": {
+      "title": "Filtra Lavori",
+      "location": "Luogo",
+      "country": "Paese",
+      "city": "Città",
+      "workMode": "Modalità di Lavoro",
+      "jobType": "Tipo di Lavoro",
+      "experience": "Livello di Esperienza",
+      "salary": "Fascia Salariale",
+      "postedWithin": "Pubblicato entro",
+      "any": "Qualsiasi",
+      "last24hours": "Ultime 24 ore",
+      "lastWeek": "Ultima settimana",
+      "lastMonth": "Ultimo mese"
+    },
+    "card": {
+      "posted": "Pubblicato {{date}}",
+      "salary": "Salario: {{range}}",
+      "remote": "Da Remoto",
+      "hybrid": "Ibrido",
+      "onsite": "In Sede",
+      "apply": "Candidati Ora",
+      "save": "Salva",
+      "saved": "Salvato",
+      "match": "{{percent}}% di Compatibilità"
+    },
+    "details": {
+      "about": "Informazioni su questo lavoro",
+      "requirements": "Requisiti",
+      "benefits": "Benefici",
+      "company": "Azienda",
+      "location": "Luogo",
+      "salary": "Salario",
+      "type": "Tipo di Lavoro",
+      "posted": "Pubblicato",
+      "source": "Fonte"
+    },
+    "saved": {
+      "title": "Lavori Salvati",
+      "empty": "Nessun lavoro salvato",
+      "remove": "Rimuovi dai salvati"
+    }
+  },
+  "matching": {
+    "title": "Analisi di Compatibilità",
+    "subtitle": "Capisci come ti adatti",
+    "score": {
+      "title": "Punteggio di Compatibilità",
+      "overall": "Compatibilità Totale",
+      "skills": "Competenze",
+      "experience": "Esperienza",
+      "education": "Istruzione",
+      "languages": "Lingue",
+      "location": "Luogo"
+    },
+    "strengths": {
+      "title": "I Tuoi Punti di Forza",
+      "description": "Cosa ti rende un buon candidato"
+    },
+    "gaps": {
+      "title": "Lacune e Competenze Manicanti",
+      "description": "Aree da migliorare"
+    },
+    "recommendations": {
+      "title": "Raccomandazioni",
+      "description": "Come migliorare la tua compatibilità"
+    }
+  },
+  "applications": {
+    "title": "Le Mie Candidature",
+    "subtitle": "Tieni traccia delle tue candidature",
+    "status": {
+      "draft": "Bozza",
+      "applied": "Candidatura Inviata",
+      "pending": "In Attesa",
+      "interview": "Colloquio",
+      "rejected": "Rifiutato",
+      "accepted": "Accettato"
+    },
+    "generate": {
+      "title": "Genera Materiali di Candidatura",
+      "cv": "CV Personalizzato",
+      "coverLetter": "Lettera di Presentazione",
+      "message": "Messaggio di Candidatura",
+      "generate": "Genera con AI",
+      "regenerate": "Rigenera",
+      "review": "Revisiona e Modifica",
+      "approve": "Approva e Salva"
+    },
+    "empty": {
+      "title": "Nessuna candidatura",
+      "description": "Inizia a candidarti per tenere traccia dei progressi"
+    }
+  },
+  "assistant": {
+    "title": "Assistente AI",
+    "subtitle": "Il tuo aiutante di carriera",
+    "placeholder": "Chiedimi qualsiasi cosa sulla tua ricerca di lavoro...",
+    "suggestions": {
+      "helpProfile": "Aiutami a migliorare il mio profilo",
+      "explainJob": "Spiega i requisiti di questo lavoro",
+      "improveCV": "Come posso migliorare il mio CV?",
+      "prepareInterview": "Aiutami a prepararmi per un colloquio"
+    }
+  },
+  "admin": {
+    "title": "Pannello Admin",
+    "dashboard": {
+      "title": "Dashboard",
+      "subtitle": "Panoramica del sistema",
+      "users": "Utenti",
+      "jobs": "Lavori",
+      "applications": "Candidature",
+      "sources": "Fonti di Lavoro"
+    },
+    "users": {
+      "title": "Gestione Utenti",
+      "subtitle": "Gestisci gli utenti della piattaforma",
+      "search": "Cerca utenti...",
+      "name": "Nome",
+      "email": "Email",
+      "role": "Ruolo",
+      "status": "Stato",
+      "created": "Creato",
+      "actions": "Azioni",
+      "active": "Attivo",
+      "suspended": "Sospeso",
+      "suspend": "Sospendi",
+      "activate": "Attiva",
+      "viewProfile": "Vedi Profilo"
+    },
+    "jobs": {
+      "title": "Gestione Lavori",
+      "subtitle": "Monitora e gestisci i lavori",
+      "total": "Totale Lavori",
+      "active": "Lavori Attivi",
+      "duplicates": "Duplicati",
+      "invalid": "Non Validi"
+    },
+    "sources": {
+      "title": "Fonti di Lavoro",
+      "subtitle": "Gestisci i fornitori di lavoro",
+      "add": "Aggiungi Fonte",
+      "name": "Nome Fonte",
+      "type": "Tipo di Fornitore",
+      "status": "Stato",
+      "lastSync": "Ultima Sincronizzazione",
+      "enabled": "Abilitato",
+      "disabled": "Disabilitato",
+      "enable": "Abilita",
+      "disable": "Disabilita",
+      "configure": "Configura",
+      "test": "Test Connessione",
+      "sync": "Sincronizza Ora"
+    },
+    "ai": {
+      "title": "Gestione AI",
+      "subtitle": "Configura le impostazioni AI",
+      "model": "Modello AI",
+      "prompts": "Modelli di Prompt",
+      "usage": "Statistiche di Utilizzo",
+      "errors": "Registro Errori"
+    },
+    "settings": {
+      "title": "Impostazioni di Sistema",
+      "subtitle": "Configura il comportamento del sistema"
+    },
+    "audit": {
+      "title": "Log di Audit",
+      "subtitle": "Tieni traccia delle azioni amministrative"
+    }
+  },
+  "errors": {
+    "generic": "Qualcosa è andato storto. Riprova.",
+    "network": "Errore di rete. Controlla la tua connessione.",
+    "unauthorized": "Non sei autorizzato a eseguire questa azione.",
+    "notFound": "La risorsa richiesta non è stata trovata.",
+    "validation": "Controlla i tuoi input e riprova.",
+    "serverError": "Errore del server. Riprova più tardi."
+  },
+  "empty": {
+    "title": "Niente qui ancora",
+    "description": "Inizia aggiungendo del contenuto"
+  },
+  "loading": {
+    "title": "Caricamento",
+    "description": "Attendi..."
+  }
+}

@@ -1,0 +1,366 @@
+{
+  "common": {
+    "appName": "Job AI Europe",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Try again",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "create": "Create",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "clear": "Clear",
+    "apply": "Apply",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "submit": "Submit",
+    "confirm": "Confirm",
+    "yes": "Yes",
+    "no": "No",
+    "or": "or",
+    "and": "and",
+    "required": "Required",
+    "optional": "Optional"
+  },
+  "nav": {
+    "home": "Home",
+    "jobs": "Jobs",
+    "applications": "Applications",
+    "profile": "Profile",
+    "assistant": "Assistant",
+    "admin": "Admin",
+    "settings": "Settings",
+    "logout": "Logout",
+    "login": "Login",
+    "register": "Register"
+  },
+  "auth": {
+    "login": {
+      "title": "Welcome back",
+      "subtitle": "Sign in to your account",
+      "email": "Email address",
+      "password": "Password",
+      "rememberMe": "Remember me",
+      "forgotPassword": "Forgot password?",
+      "submit": "Sign in",
+      "noAccount": "Don't have an account?",
+      "signUp": "Sign up"
+    },
+    "register": {
+      "title": "Create your account",
+      "subtitle": "Start your job search journey",
+      "fullName": "Full name",
+      "email": "Email address",
+      "password": "Password",
+      "confirmPassword": "Confirm password",
+      "terms": "I agree to the Terms of Service and Privacy Policy",
+      "submit": "Create account",
+      "hasAccount": "Already have an account?",
+      "signIn": "Sign in"
+    },
+    "logout": {
+      "success": "You have been logged out"
+    },
+    "errors": {
+      "invalidCredentials": "Invalid email or password",
+      "emailInUse": "This email is already registered",
+      "weakPassword": "Password must be at least 8 characters",
+      "passwordMismatch": "Passwords do not match",
+      "required": "This field is required",
+      "invalidEmail": "Please enter a valid email address"
+    }
+  },
+  "profile": {
+    "title": "Professional Profile",
+    "subtitle": "Build your professional identity",
+    "personal": {
+      "title": "Personal Information",
+      "fullName": "Full Name",
+      "email": "Email",
+      "phone": "Phone",
+      "country": "Country",
+      "city": "City"
+    },
+    "professional": {
+      "title": "Professional Information",
+      "professionalTitle": "Professional Title",
+      "summary": "Professional Summary"
+    },
+    "experience": {
+      "title": "Work Experience",
+      "add": "Add Experience",
+      "company": "Company",
+      "position": "Position",
+      "location": "Location",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "current": "Currently working here",
+      "description": "Description",
+      "noExperience": "No work experience added yet"
+    },
+    "education": {
+      "title": "Education",
+      "add": "Add Education",
+      "institution": "Institution",
+      "degree": "Degree",
+      "field": "Field of Study",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "description": "Description",
+      "noEducation": "No education added yet"
+    },
+    "certifications": {
+      "title": "Certifications",
+      "add": "Add Certification",
+      "name": "Certification Name",
+      "issuer": "Issuing Organization",
+      "issueDate": "Issue Date",
+      "expiryDate": "Expiry Date",
+      "credentialId": "Credential ID",
+      "noCertifications": "No certifications added yet"
+    },
+    "languages": {
+      "title": "Languages",
+      "add": "Add Language",
+      "language": "Language",
+      "level": "Proficiency Level",
+      "noLanguages": "No languages added yet"
+    },
+    "skills": {
+      "title": "Skills",
+      "add": "Add Skill",
+      "name": "Skill Name",
+      "level": "Skill Level",
+      "years": "Years of Experience",
+      "noSkills": "No skills added yet"
+    },
+    "preferences": {
+      "title": "Job Preferences",
+      "desiredTitle": "Desired Job Title",
+      "desiredCountry": "Desired Country",
+      "desiredCity": "Desired City",
+      "workMode": "Work Mode",
+      "remote": "Remote",
+      "hybrid": "Hybrid",
+      "onsite": "On-site",
+      "employmentType": "Employment Type",
+      "fullTime": "Full-time",
+      "partTime": "Part-time",
+      "contract": "Contract",
+      "salary": "Salary Range",
+      "experienceLevel": "Experience Level",
+      "entry": "Entry Level",
+      "mid": "Mid Level",
+      "senior": "Senior Level",
+      "lead": "Lead/Manager"
+    },
+    "completion": {
+      "title": "Profile Completion",
+      "complete": "Your profile is {{percent}}% complete",
+      "improve": "Complete your profile to get better job matches"
+    }
+  },
+  "jobs": {
+    "title": "Job Search",
+    "subtitle": "Find your next opportunity",
+    "search": {
+      "placeholder": "Search jobs, titles, companies...",
+      "filters": "Filters",
+      "results": "{{count}} jobs found",
+      "noResults": "No jobs found",
+      "adjustFilters": "Try adjusting your filters"
+    },
+    "filters": {
+      "title": "Filter Jobs",
+      "location": "Location",
+      "country": "Country",
+      "city": "City",
+      "workMode": "Work Mode",
+      "jobType": "Job Type",
+      "experience": "Experience Level",
+      "salary": "Salary Range",
+      "postedWithin": "Posted Within",
+      "any": "Any",
+      "last24hours": "Last 24 hours",
+      "lastWeek": "Last week",
+      "lastMonth": "Last month"
+    },
+    "card": {
+      "posted": "Posted {{date}}",
+      "salary": "Salary: {{range}}",
+      "remote": "Remote",
+      "hybrid": "Hybrid",
+      "onsite": "On-site",
+      "apply": "Apply Now",
+      "save": "Save Job",
+      "saved": "Saved",
+      "match": "{{percent}}% Match"
+    },
+    "details": {
+      "about": "About this job",
+      "requirements": "Requirements",
+      "benefits": "Benefits",
+      "company": "Company",
+      "location": "Location",
+      "salary": "Salary",
+      "type": "Job Type",
+      "posted": "Posted",
+      "source": "Source"
+    },
+    "saved": {
+      "title": "Saved Jobs",
+      "empty": "No saved jobs yet",
+      "remove": "Remove from saved"
+    }
+  },
+  "matching": {
+    "title": "Job Match Analysis",
+    "subtitle": "Understand how you fit",
+    "score": {
+      "title": "Compatibility Score",
+      "overall": "Overall Match",
+      "skills": "Skills Match",
+      "experience": "Experience Match",
+      "education": "Education Match",
+      "languages": "Language Match",
+      "location": "Location Match"
+    },
+    "strengths": {
+      "title": "Your Strengths",
+      "description": "What makes you a good fit"
+    },
+    "gaps": {
+      "title": "Gaps & Missing Skills",
+      "description": "Areas that could be improved"
+    },
+    "recommendations": {
+      "title": "Recommendations",
+      "description": "How to improve your match"
+    }
+  },
+  "applications": {
+    "title": "My Applications",
+    "subtitle": "Track your job applications",
+    "status": {
+      "draft": "Draft",
+      "applied": "Applied",
+      "pending": "Pending",
+      "interview": "Interview",
+      "rejected": "Rejected",
+      "accepted": "Accepted"
+    },
+    "generate": {
+      "title": "Generate Application Materials",
+      "cv": "Tailored CV",
+      "coverLetter": "Cover Letter",
+      "message": "Application Message",
+      "generate": "Generate with AI",
+      "regenerate": "Regenerate",
+      "review": "Review & Edit",
+      "approve": "Approve & Save"
+    },
+    "empty": {
+      "title": "No applications yet",
+      "description": "Start applying to jobs to track your progress"
+    }
+  },
+  "assistant": {
+    "title": "AI Assistant",
+    "subtitle": "Your career helper",
+    "placeholder": "Ask me anything about your job search...",
+    "suggestions": {
+      "helpProfile": "Help me improve my profile",
+      "explainJob": "Explain this job requirements",
+      "improveCV": "How can I improve my CV?",
+      "prepareInterview": "Help me prepare for an interview"
+    }
+  },
+  "admin": {
+    "title": "Admin Panel",
+    "dashboard": {
+      "title": "Dashboard",
+      "subtitle": "System overview",
+      "users": "Users",
+      "jobs": "Jobs",
+      "applications": "Applications",
+      "sources": "Job Sources"
+    },
+    "users": {
+      "title": "User Management",
+      "subtitle": "Manage platform users",
+      "search": "Search users...",
+      "name": "Name",
+      "email": "Email",
+      "role": "Role",
+      "status": "Status",
+      "created": "Created",
+      "actions": "Actions",
+      "active": "Active",
+      "suspended": "Suspended",
+      "suspend": "Suspend",
+      "activate": "Activate",
+      "viewProfile": "View Profile"
+    },
+    "jobs": {
+      "title": "Job Management",
+      "subtitle": "Monitor and manage jobs",
+      "total": "Total Jobs",
+      "active": "Active Jobs",
+      "duplicates": "Duplicates",
+      "invalid": "Invalid"
+    },
+    "sources": {
+      "title": "Job Sources",
+      "subtitle": "Manage job providers",
+      "add": "Add Source",
+      "name": "Source Name",
+      "type": "Provider Type",
+      "status": "Status",
+      "lastSync": "Last Sync",
+      "enabled": "Enabled",
+      "disabled": "Disabled",
+      "enable": "Enable",
+      "disable": "Disable",
+      "configure": "Configure",
+      "test": "Test Connection",
+      "sync": "Sync Now"
+    },
+    "ai": {
+      "title": "AI Management",
+      "subtitle": "Configure AI settings",
+      "model": "AI Model",
+      "prompts": "Prompt Templates",
+      "usage": "Usage Statistics",
+      "errors": "Error Log"
+    },
+    "settings": {
+      "title": "System Settings",
+      "subtitle": "Configure system behavior"
+    },
+    "audit": {
+      "title": "Audit Logs",
+      "subtitle": "Track administrative actions"
+    }
+  },
+  "errors": {
+    "generic": "Something went wrong. Please try again.",
+    "network": "Network error. Please check your connection.",
+    "unauthorized": "You are not authorized to perform this action.",
+    "notFound": "The requested resource was not found.",
+    "validation": "Please check your input and try again.",
+    "serverError": "Server error. Please try again later."
+  },
+  "empty": {
+    "title": "Nothing here yet",
+    "description": "Get started by adding some content"
+  },
+  "loading": {
+    "title": "Loading",
+    "description": "Please wait..."
+  }
+}

@@ -1,0 +1,366 @@
+{
+  "common": {
+    "appName": "Job AI Europe",
+    "loading": "Chargement...",
+    "error": "Une erreur s'est produite",
+    "retry": "Réessayer",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "create": "Créer",
+    "search": "Rechercher",
+    "filter": "Filtrer",
+    "sort": "Trier",
+    "clear": "Effacer",
+    "apply": "Appliquer",
+    "close": "Fermer",
+    "back": "Retour",
+    "next": "Suivant",
+    "previous": "Précédent",
+    "submit": "Soumettre",
+    "confirm": "Confirmer",
+    "yes": "Oui",
+    "no": "Non",
+    "or": "ou",
+    "and": "et",
+    "required": "Obligatoire",
+    "optional": "Facultatif"
+  },
+  "nav": {
+    "home": "Accueil",
+    "jobs": "Emplois",
+    "applications": "Candidatures",
+    "profile": "Profil",
+    "assistant": "Assistant",
+    "admin": "Admin",
+    "settings": "Paramètres",
+    "logout": "Déconnexion",
+    "login": "Connexion",
+    "register": "S'inscrire"
+  },
+  "auth": {
+    "login": {
+      "title": "Bon retour",
+      "subtitle": "Connectez-vous à votre compte",
+      "email": "Adresse e-mail",
+      "password": "Mot de passe",
+      "rememberMe": "Se souvenir de moi",
+      "forgotPassword": "Mot de passe oublié ?",
+      "submit": "Se connecter",
+      "noAccount": "Pas encore de compte ?",
+      "signUp": "S'inscrire"
+    },
+    "register": {
+      "title": "Créer votre compte",
+      "subtitle": "Commencez votre recherche d'emploi",
+      "fullName": "Nom complet",
+      "email": "Adresse e-mail",
+      "password": "Mot de passe",
+      "confirmPassword": "Confirmer le mot de passe",
+      "terms": "J'accepte les Conditions d'utilisation et la Politique de confidentialité",
+      "submit": "Créer un compte",
+      "hasAccount": "Vous avez déjà un compte ?",
+      "signIn": "Se connecter"
+    },
+    "logout": {
+      "success": "Vous avez été déconnecté"
+    },
+    "errors": {
+      "invalidCredentials": "E-mail ou mot de passe invalide",
+      "emailInUse": "Cet e-mail est déjà enregistré",
+      "weakPassword": "Le mot de passe doit contenir au moins 8 caractères",
+      "passwordMismatch": "Les mots de passe ne correspondent pas",
+      "required": "Ce champ est obligatoire",
+      "invalidEmail": "Veuillez entrer une adresse e-mail valide"
+    }
+  },
+  "profile": {
+    "title": "Profil Professionnel",
+    "subtitle": "Construisez votre identité professionnelle",
+    "personal": {
+      "title": "Informations Personnelles",
+      "fullName": "Nom Complet",
+      "email": "E-mail",
+      "phone": "Téléphone",
+      "country": "Pays",
+      "city": "Ville"
+    },
+    "professional": {
+      "title": "Informations Professionnelles",
+      "professionalTitle": "Titre Professionnel",
+      "summary": "Résumé Professionnel"
+    },
+    "experience": {
+      "title": "Expérience Professionnelle",
+      "add": "Ajouter une Expérience",
+      "company": "Entreprise",
+      "position": "Poste",
+      "location": "Lieu",
+      "startDate": "Date de Début",
+      "endDate": "Date de Fin",
+      "current": "Poste actuel",
+      "description": "Description",
+      "noExperience": "Aucune expérience professionnelle ajoutée"
+    },
+    "education": {
+      "title": "Éducation",
+      "add": "Ajouter une Formation",
+      "institution": "Institution",
+      "degree": "Diplôme",
+      "field": "Domaine d'Étude",
+      "startDate": "Date de Début",
+      "endDate": "Date de Fin",
+      "description": "Description",
+      "noEducation": "Aucune formation ajoutée"
+    },
+    "certifications": {
+      "title": "Certifications",
+      "add": "Ajouter une Certification",
+      "name": "Nom de la Certification",
+      "issuer": "Organisation Émettrice",
+      "issueDate": "Date d'Obtention",
+      "expiryDate": "Date d'Expiration",
+      "credentialId": "ID du Certificat",
+      "noCertifications": "Aucune certification ajoutée"
+    },
+    "languages": {
+      "title": "Langues",
+      "add": "Ajouter une Langue",
+      "language": "Langue",
+      "level": "Niveau de Compétence",
+      "noLanguages": "Aucune langue ajoutée"
+    },
+    "skills": {
+      "title": "Compétences",
+      "add": "Ajouter une Compétence",
+      "name": "Nom de la Compétence",
+      "level": "Niveau de Compétence",
+      "years": "Années d'Expérience",
+      "noSkills": "Aucune compétence ajoutée"
+    },
+    "preferences": {
+      "title": "Préférences d'Emploi",
+      "desiredTitle": "Titre Souhaité",
+      "desiredCountry": "Pays Souhaité",
+      "desiredCity": "Ville Souhaitée",
+      "workMode": "Mode de Travail",
+      "remote": "Télétravail",
+      "hybrid": "Hybride",
+      "onsite": "Sur Place",
+      "employmentType": "Type d'Emploi",
+      "fullTime": "Temps Plein",
+      "partTime": "Temps Partiel",
+      "contract": "Contrat",
+      "salary": "Fourchette Salariale",
+      "experienceLevel": "Niveau d'Expérience",
+      "entry": "Débutant",
+      "mid": "Intermédiaire",
+      "senior": "Senior",
+      "lead": "Responsable"
+    },
+    "completion": {
+      "title": "Complétude du Profil",
+      "complete": "Votre profil est à {{percent}}% complet",
+      "improve": "Complétez votre profil pour de meilleures correspondances"
+    }
+  },
+  "jobs": {
+    "title": "Recherche d'Emploi",
+    "subtitle": "Trouvez votre prochaine opportunité",
+    "search": {
+      "placeholder": "Rechercher des emplois, titres, entreprises...",
+      "filters": "Filtres",
+      "results": "{{count}} emplois trouvés",
+      "noResults": "Aucun emploi trouvé",
+      "adjustFilters": "Essayez d'ajuster vos filtres"
+    },
+    "filters": {
+      "title": "Filtrer les Emplois",
+      "location": "Lieu",
+      "country": "Pays",
+      "city": "Ville",
+      "workMode": "Mode de Travail",
+      "jobType": "Type d'Emploi",
+      "experience": "Niveau d'Expérience",
+      "salary": "Fourchette Salariale",
+      "postedWithin": "Publié dans",
+      "any": "Tous",
+      "last24hours": "Dernières 24 heures",
+      "lastWeek": "Dernière semaine",
+      "lastMonth": "Dernier mois"
+    },
+    "card": {
+      "posted": "Publié le {{date}}",
+      "salary": "Salaire : {{range}}",
+      "remote": "Télétravail",
+      "hybrid": "Hybride",
+      "onsite": "Sur Place",
+      "apply": "Postuler",
+      "save": "Enregistrer",
+      "saved": "Enregistré",
+      "match": "{{percent}}% de Correspondance"
+    },
+    "details": {
+      "about": "À propos de ce poste",
+      "requirements": "Exigences",
+      "benefits": "Avantages",
+      "company": "Entreprise",
+      "location": "Lieu",
+      "salary": "Salaire",
+      "type": "Type d'Emploi",
+      "posted": "Publié",
+      "source": "Source"
+    },
+    "saved": {
+      "title": "Emplois Enregistrés",
+      "empty": "Aucun emploi enregistré",
+      "remove": "Supprimer des enregistrements"
+    }
+  },
+  "matching": {
+    "title": "Analyse de Correspondance",
+    "subtitle": "Comprenez votre adéquation",
+    "score": {
+      "title": "Score de Compatibilité",
+      "overall": "Correspondance Globale",
+      "skills": "Compétences",
+      "experience": "Expérience",
+      "education": "Éducation",
+      "languages": "Langues",
+      "location": "Lieu"
+    },
+    "strengths": {
+      "title": "Vos Points Forts",
+      "description": "Ce qui fait de vous un bon candidat"
+    },
+    "gaps": {
+      "title": "Lacunes et Compétences Manquantes",
+      "description": "Domaines à améliorer"
+    },
+    "recommendations": {
+      "title": "Recommandations",
+      "description": "Comment améliorer votre correspondance"
+    }
+  },
+  "applications": {
+    "title": "Mes Candidatures",
+    "subtitle": "Suivez vos candidatures",
+    "status": {
+      "draft": "Brouillon",
+      "applied": "Candidaté",
+      "pending": "En Attente",
+      "interview": "Entretien",
+      "rejected": "Rejeté",
+      "accepted": "Accepté"
+    },
+    "generate": {
+      "title": "Générer les Documents",
+      "cv": "CV Personnalisé",
+      "coverLetter": "Lettre de Motivation",
+      "message": "Message de Candidature",
+      "generate": "Générer avec l'IA",
+      "regenerate": "Régénérer",
+      "review": "Réviser et Modifier",
+      "approve": "Approuver et Enregistrer"
+    },
+    "empty": {
+      "title": "Aucune candidature",
+      "description": "Postulez à des emplois pour suivre votre progression"
+    }
+  },
+  "assistant": {
+    "title": "Assistant IA",
+    "subtitle": "Votre assistant carrière",
+    "placeholder": "Posez-moi n'importe quelle question sur votre recherche d'emploi...",
+    "suggestions": {
+      "helpProfile": "Aidez-moi à améliorer mon profil",
+      "explainJob": "Expliquez les exigences de ce poste",
+      "improveCV": "Comment améliorer mon CV ?",
+      "prepareInterview": "Aidez-moi à préparer un entretien"
+    }
+  },
+  "admin": {
+    "title": "Panneau d'Administration",
+    "dashboard": {
+      "title": "Tableau de Bord",
+      "subtitle": "Vue d'ensemble du système",
+      "users": "Utilisateurs",
+      "jobs": "Emplois",
+      "applications": "Candidatures",
+      "sources": "Sources d'Emploi"
+    },
+    "users": {
+      "title": "Gestion des Utilisateurs",
+      "subtitle": "Gérer les utilisateurs de la plateforme",
+      "search": "Rechercher des utilisateurs...",
+      "name": "Nom",
+      "email": "E-mail",
+      "role": "Rôle",
+      "status": "Statut",
+      "created": "Créé",
+      "actions": "Actions",
+      "active": "Actif",
+      "suspended": "Suspendu",
+      "suspend": "Suspendre",
+      "activate": "Activer",
+      "viewProfile": "Voir le Profil"
+    },
+    "jobs": {
+      "title": "Gestion des Emplois",
+      "subtitle": "Surveiller et gérer les emplois",
+      "total": "Total des Emplois",
+      "active": "Emplois Actifs",
+      "duplicates": "Doublons",
+      "invalid": "Invalides"
+    },
+    "sources": {
+      "title": "Sources d'Emploi",
+      "subtitle": "Gérer les fournisseurs d'emplois",
+      "add": "Ajouter une Source",
+      "name": "Nom de la Source",
+      "type": "Type de Fournisseur",
+      "status": "Statut",
+      "lastSync": "Dernière Synchronisation",
+      "enabled": "Activé",
+      "disabled": "Désactivé",
+      "enable": "Activer",
+      "disable": "Désactiver",
+      "configure": "Configurer",
+      "test": "Tester la Connexion",
+      "sync": "Synchroniser"
+    },
+    "ai": {
+      "title": "Gestion de l'IA",
+      "subtitle": "Configurer les paramètres IA",
+      "model": "Modèle IA",
+      "prompts": "Modèles de Prompts",
+      "usage": "Statistiques d'Utilisation",
+      "errors": "Journal des Erreurs"
+    },
+    "settings": {
+      "title": "Paramètres Système",
+      "subtitle": "Configurer le comportement du système"
+    },
+    "audit": {
+      "title": "Journaux d'Audit",
+      "subtitle": "Suivre les actions administratives"
+    }
+  },
+  "errors": {
+    "generic": "Quelque chose s'est mal passé. Veuillez réessayer.",
+    "network": "Erreur réseau. Veuillez vérifier votre connexion.",
+    "unauthorized": "Vous n'êtes pas autorisé à effectuer cette action.",
+    "notFound": "La ressource demandée n'a pas été trouvée.",
+    "validation": "Veuillez vérifier votre saisie et réessayer.",
+    "serverError": "Erreur serveur. Veuillez réessayer plus tard."
+  },
+  "empty": {
+    "title": "Rien ici pour le moment",
+    "description": "Commencez en ajoutant du contenu"
+  },
+  "loading": {
+    "title": "Chargement",
+    "description": "Veuillez patienter..."
+  }
+}
