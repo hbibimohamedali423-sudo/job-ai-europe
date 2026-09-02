@@ -135,11 +135,11 @@ job-ai/
 
 ## 6. Supabase Configuration
 
-**Project URL:** `https://waxkzbegqmepopwsycpl.supabase.co`
+**Project URL:** `https://ontloktjlsrrafkkatbz.supabase.co`
 
 ### Client-Safe Variables (public):
 ```
-VITE_SUPABASE_URL=https://waxkzbegqmepopwsycpl.supabase.co
+VITE_SUPABASE_URL=https://ontloktjlsrrafkkatbz.supabase.co
 VITE_SUPABASE_ANON_KEY=<safe-to-expose>
 VITE_APP_ENV=development|production
 VITE_APP_URL=<application-url>
@@ -254,7 +254,7 @@ Phase 0 established these boundaries that future phases must respect:
 
 ### Client-Safe (VITE_ prefix):
 ```env
-VITE_SUPABASE_URL=https://waxkzbegqmepopwsycpl.supabase.co
+VITE_SUPABASE_URL=https://ontloktjlsrrafkkatbz.supabase.co
 VITE_SUPABASE_ANON_KEY=<publishable-key>
 VITE_APP_ENV=development|production
 VITE_APP_URL=http://localhost:3000
@@ -367,6 +367,7 @@ OpenHands agents are **executors**, not architectural decision-makers.
 
 | Commit | Description |
 |--------|-------------|
+| `f932c19` | Phase 2 - Professional Profile: Add phone and avatar fields |
 | `1050908` | Fix Supabase auth profile trigger |
 | `1009174` | Fix Vercel pnpm deployment configuration |
 | `f25a43e` | Fix pre-existing TypeScript errors |
