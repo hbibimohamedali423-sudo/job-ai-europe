@@ -1,5 +1,4 @@
 import { useState, useRef } from 'react'
-import { useTranslation } from 'react-i18next'
 import { Button } from '@/components/ui/Button'
 import { uploadAvatar, deleteAvatar } from '@/services/storage'
 
@@ -16,7 +15,6 @@ export function ProfilePhotoUpload({
   onUploadComplete,
   onDeleteComplete,
 }: ProfilePhotoUploadProps) {
-  const { t } = useTranslation()
   const [uploading, setUploading] = useState(false)
   const [deleting, setDeleting] = useState(false)
   const [error, setError] = useState<string | null>(null)
