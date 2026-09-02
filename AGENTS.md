@@ -407,4 +407,50 @@ Sign Up → Account created (no email confirmation needed) → Profile auto-crea
 - No SMTP/Resend required for Demo
 - Migration 002 applied: handle_new_user() uses SECURITY DEFINER
 - RLS policies unchanged
-- All phases (0-6) complete - No Phase 7
+- Phase 0, 1, 2 complete. Phase 3 is next.
+- No Phase 7
+
+---
+
+## 20. Phase 2 — Professional Profile Verification
+
+**Status:** COMPLETE ✅
+
+### Phase 2 Enhancement (Commit: f932c19)
+
+**Features Added:**
+- Phone field (profiles.phone)
+- Avatar URL field (profiles.avatar_url)
+- Profile photo upload via Supabase Storage
+- Storage bucket 'avatars' created
+- Storage RLS policies for secure upload/delete
+- ProfilePhotoUpload component
+- ProfileEditModal with phone field
+- Migration 003 applied
+
+**Verification Results:**
+| Component | Status |
+|-----------|--------|
+| Phone Create/Read/Update | ✅ PASS |
+| Profile Photo Upload | ✅ PASS |
+| Profile Photo Replace | ✅ PASS |
+| Profile Photo Delete | ✅ PASS |
+| Persistence after Login | ✅ PASS |
+| Supabase Columns | ✅ PASS |
+| Storage Bucket | ✅ PASS |
+| Storage Policies | ✅ PASS |
+| No Auth Regression | ✅ PASS |
+| No RLS Regression | ✅ PASS |
+
+**Files Created:**
+- `apps/web/src/features/profile/components/ProfilePhotoUpload.tsx`
+- `apps/web/src/services/storage.ts`
+- `supabase/migrations/003_phase2_profile_fields.sql`
+
+**Files Modified:**
+- `apps/web/src/features/profile/components/ProfileEditModal.tsx`
+- `apps/web/src/features/profile/pages/ProfilePage.tsx`
+- `apps/web/src/services/profile.ts`
+- `apps/web/src/lib/supabase.ts`
+- `apps/web/src/stores/profile.ts`
+- `apps/web/src/i18n/locales/*.json` (phone translations)
