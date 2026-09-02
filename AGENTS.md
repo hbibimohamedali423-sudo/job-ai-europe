@@ -322,6 +322,52 @@ Future agents MUST NOT:
 
 See STATUS.md for current state.
 
-Current phase: **Phase 5 COMPLETE**
+Current phase: **Phase 6 COMPLETE**
 
-Next phase: **Phase 6 - AI Assistant**
+All phases (0-6) are complete. **Do NOT create Phase 7.**
+
+---
+
+## 16. Deployment Configuration
+
+### Vercel
+
+| Item | Value |
+|------|-------|
+| Root Directory | `.` (repo root) |
+| Framework | Vite (React 18 + TypeScript) |
+| Build Command | `pnpm --filter @job-ai/web build` |
+| Output Directory | `apps/web/dist` |
+| Install Command | `pnpm install` |
+| Node Version | 20.x or higher |
+| Package Manager | pnpm 8.0.0 |
+
+**Configuration file:** `.npmrc` with `package-manager=pnpm@8.0.0`
+
+**Note:** Vercel deployment requires proper configuration of environment variables:
+- `VITE_SUPABASE_URL`
+- `VITE_SUPABASE_ANON_KEY`
+
+---
+
+## 17. Agent Authority
+
+OpenHands agents are **executors**, not architectural decision-makers.
+
+- Agents MUST follow existing architecture and patterns
+- Agents MUST NOT modify Phase 0-6 foundation without explicit authorization
+- Agents MUST NOT create new phases or features outside approved roadmap
+- Agents MUST NOT change technology stack without architectural approval
+- Agents MUST NOT modify Supabase schema without migrations
+- All changes require human approval before commit/push
+
+---
+
+## 18. Recent Commits
+
+| Commit | Description |
+|--------|-------------|
+| `1009174` | Fix Vercel pnpm deployment configuration |
+| `f25a43e` | Fix pre-existing TypeScript errors |
+| `968e702` | Phase 6 - AI Assistant: Context-aware chat interface |
+| `28a795b` | Phase 4 - AI Matching |
