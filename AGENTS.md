@@ -24,7 +24,7 @@ This project has exactly 7 phases:
 | Phase 1 | Authentication | ✅ COMPLETE | |
 | Phase 2 | Professional Profile | ✅ COMPLETE | |
 | Phase 3 | Job Search | ✅ COMPLETE | |
-| Phase 4 | AI Matching | NOT STARTED |
+| Phase 4 | AI Matching | ✅ COMPLETE |
 | Phase 5 | Applications | NOT STARTED |
 | Phase 6 | AI Assistant | NOT STARTED |
 
@@ -322,6 +322,6 @@ Future agents MUST NOT:
 
 See STATUS.md for current state.
 
-Current phase: **Phase 0 COMPLETE**
+Current phase: **Phase 4 COMPLETE**
 
-Next phase: **Phase 1 - Authentication**
+Next phase: **Phase 5 - Applications**

@@ -30,6 +30,7 @@
   "nav": {
     "home": "Home",
     "jobs": "Jobs",
+    "matches": "Matches",
     "applications": "Applications",
     "profile": "Profile",
     "assistant": "Assistant",
@@ -289,31 +290,54 @@
       "contract": "Contract",
       "internship": "Internship",
       "temporary": "Temporary"
+    },
+    "fields": {
+      "location": "Location",
+      "workMode": "Work Mode",
+      "employmentType": "Employment Type",
+      "experienceLevel": "Experience Level",
+      "salary": "Salary",
+      "postedAt": "Posted"
     }
   },
   "matching": {
-    "title": "Job Match Analysis",
-    "subtitle": "Understand how you fit",
+    "title": "Job Matches",
+    "subtitle": "AI-powered job compatibility analysis",
+    "refresh": "Refresh Matches",
+    "refreshing": "Refreshing...",
+    "stats": {
+      "total": "Total Matches",
+      "highMatch": "High Match (80%+)",
+      "avgScore": "Average Score"
+    },
     "score": {
-      "title": "Compatibility Score",
-      "overall": "Overall Match",
-      "skills": "Skills Match",
-      "experience": "Experience Match",
-      "education": "Education Match",
-      "languages": "Language Match",
-      "location": "Location Match"
+      "excellent": "Excellent",
+      "good": "Good",
+      "moderate": "Moderate",
+      "low": "Low"
     },
-    "strengths": {
-      "title": "Your Strengths",
-      "description": "What makes you a good fit"
+    "skills": {
+      "matched": "Matched Skills",
+      "missing": "Missing Skills"
     },
-    "gaps": {
-      "title": "Gaps & Missing Skills",
-      "description": "Areas that could be improved"
+    "empty": {
+      "title": "No matches yet",
+      "message": "Complete your profile and browse jobs to get personalized match recommendations.",
+      "action": "Calculate My Matches"
     },
-    "recommendations": {
-      "title": "Recommendations",
-      "description": "How to improve your match"
+    "authRequired": {
+      "title": "Login Required",
+      "message": "Please login to view your job matches"
+    },
+    "viewDetails": "View Details",
+    "detail": {
+      "title": "Match Details",
+      "viewJob": "View Job",
+      "apply": "Apply Now",
+      "match": "Match",
+      "summary": "Summary",
+      "strengths": "Your Strengths",
+      "risks": "Areas to Improve"
     }
   },
   "applications": {

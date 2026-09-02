@@ -23,6 +23,7 @@ export function Navbar() {
 
   const userLinks = user
     ? [
+        { href: '/matches', label: t('nav.matches') },
         { href: '/applications', label: t('nav.applications') },
         { href: '/profile', label: t('nav.profile') },
         { href: '/assistant', label: t('nav.assistant') },

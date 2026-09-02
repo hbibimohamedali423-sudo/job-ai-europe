@@ -16,6 +16,7 @@ import { JobsPage } from '@/features/jobs/pages/JobsPage'
 import { JobDetailsPage } from '@/features/jobs/pages/JobDetailsPage'
 import { SavedJobsPage } from '@/features/jobs/pages/SavedJobsPage'
 import { ProfilePage } from '@/features/profile/pages/ProfilePage'
+import { MatchesPage } from '@/features/matching/pages/MatchesPage'
 import { ApplicationsPage } from '@/features/applications/pages/ApplicationsPage'
 import { AssistantPage } from '@/features/assistant/pages/AssistantPage'
 import { AdminDashboard } from '@/features/admin/pages/AdminDashboard'
@@ -84,6 +85,12 @@ function App() {
         <Route path="profile" element={
           <ProtectedRoute>
             <ProfilePage />
+          </ProtectedRoute>
+        } />
+
+        <Route path="matches" element={
+          <ProtectedRoute>
+            <MatchesPage />
           </ProtectedRoute>
         } />
 
