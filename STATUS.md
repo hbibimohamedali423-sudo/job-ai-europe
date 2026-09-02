@@ -6,7 +6,7 @@
 
 ## Current Phase
 
-**Phase 6 — AI Assistant: COMPLETE**
+**Phase 3 — Job Search: NEXT / NOT COMPLETE**
 
 ---
 
@@ -38,8 +38,8 @@
 
 | Item | Value |
 |------|-------|
-| Project URL | https://ontloktjlsrrafkkatbz.supabase.co |
-| Project Ref | ontloktjlsrrafkkatbz |
+| Project URL | https://waxkzbegqmepopwsycpl.supabase.co |
+| Project Ref | waxkzbegqmepopwsycpl |
 | Migration Status | ✅ COMPLETE |
 | Migration Files | `001_initial_schema.sql`, `002_fix_handle_new_user_trigger.sql`, `003_phase2_profile_fields.sql` |
 | Migration Executed | 2026-09-02 |
@@ -200,7 +200,7 @@ Skills loaded: JavaScript, TypeScript, Python, Java, C++, C#, Go, Rust, Ruby, PH
 
 ---
 
-### Phase 4 — AI Matching ✅ COMPLETE
+### Phase 4 — AI Matching ⏳ NOT STARTED
 
 **Prerequisites:** Phase 3 ✅
 
@@ -229,7 +229,7 @@ Skills loaded: JavaScript, TypeScript, Python, Java, C++, C#, Go, Rust, Ruby, PH
 
 ---
 
-### Phase 5 — Applications ✅ COMPLETE
+### Phase 5 — Applications ⏳ NOT STARTED
 
 **Prerequisites:** Phase 4 ✅
 
@@ -260,7 +260,7 @@ Skills loaded: JavaScript, TypeScript, Python, Java, C++, C#, Go, Rust, Ruby, PH
 
 ---
 
-### Phase 6 — AI Assistant ✅ COMPLETE
+### Phase 6 — AI Assistant ⏳ NOT STARTED
 
 **Prerequisites:** Phase 5 ✅
 
@@ -285,7 +285,7 @@ Skills loaded: JavaScript, TypeScript, Python, Java, C++, C#, Go, Rust, Ruby, PH
 - `apps/web/src/features/assistant/pages/AssistantPage.tsx` - Full chat interface
 - `apps/web/src/i18n/locales/*.json` - Added assistant translations (EN, DE, FR, AR, IT, ES)
 
-**Status:** ✅ Phase 6 COMPLETE - Project Complete
+**Status:** ⏳ NOT STARTED
 
 ---
 
@@ -294,7 +294,7 @@ Skills loaded: JavaScript, TypeScript, Python, Java, C++, C#, Go, Rust, Ruby, PH
 ### Environment Variables (Client-Safe)
 
 ```env
-VITE_SUPABASE_URL=https://ontloktjlsrrafkkatbz.supabase.co
+VITE_SUPABASE_URL=https://waxkzbegqmepopwsycpl.supabase.co
 VITE_SUPABASE_ANON_KEY=<publishable-key>
 VITE_APP_ENV=development
 VITE_APP_URL=http://localhost:3000
@@ -581,7 +581,7 @@ This ensures Vercel uses pnpm instead of npm for the monorepo project.
 
 ---
 
-**Phase 4 Status: COMPLETE ✅**
+**Phase 4 Status: ⏳ NOT STARTED**
 
 ---
 
@@ -603,4 +603,4 @@ This ensures Vercel uses pnpm instead of npm for the monorepo project.
 
 ---
 
-**Phase 5 Status: COMPLETE ✅**
+**Phase 5 Status: ⏳ NOT STARTED**

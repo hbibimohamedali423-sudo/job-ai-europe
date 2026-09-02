@@ -21,12 +21,12 @@ This project has exactly 7 phases:
 | Phase | Name | Status |
 |-------|------|--------|
 | Phase 0 | Foundation | ✅ COMPLETE |
-| Phase 1 | Authentication | ✅ COMPLETE | |
-| Phase 2 | Professional Profile | ✅ COMPLETE | |
-| Phase 3 | Job Search | ✅ COMPLETE | |
-| Phase 4 | AI Matching | ✅ COMPLETE |
-| Phase 5 | Applications | ✅ COMPLETE |
-| Phase 6 | AI Assistant | ✅ COMPLETE |
+| Phase 1 | Authentication | ✅ COMPLETE |
+| Phase 2 | Professional Profile | ✅ COMPLETE |
+| Phase 3 | Job Search | ⏳ NEXT |
+| Phase 4 | AI Matching | ⏳ NOT STARTED |
+| Phase 5 | Applications | ⏳ NOT STARTED |
+| Phase 6 | AI Assistant | ⏳ NOT STARTED |
 
 **Do NOT create Phase 7 or additional phases.**
 
@@ -135,11 +135,11 @@ job-ai/
 
 ## 6. Supabase Configuration
 
-**Project URL:** `https://ontloktjlsrrafkkatbz.supabase.co`
+**Project URL:** `https://waxkzbegqmepopwsycpl.supabase.co`
 
 ### Client-Safe Variables (public):
 ```
-VITE_SUPABASE_URL=https://ontloktjlsrrafkkatbz.supabase.co
+VITE_SUPABASE_URL=https://waxkzbegqmepopwsycpl.supabase.co
 VITE_SUPABASE_ANON_KEY=<safe-to-expose>
 VITE_APP_ENV=development|production
 VITE_APP_URL=<application-url>
@@ -254,7 +254,7 @@ Phase 0 established these boundaries that future phases must respect:
 
 ### Client-Safe (VITE_ prefix):
 ```env
-VITE_SUPABASE_URL=https://ontloktjlsrrafkkatbz.supabase.co
+VITE_SUPABASE_URL=https://waxkzbegqmepopwsycpl.supabase.co
 VITE_SUPABASE_ANON_KEY=<publishable-key>
 VITE_APP_ENV=development|production
 VITE_APP_URL=http://localhost:3000
@@ -322,9 +322,12 @@ Future agents MUST NOT:
 
 See STATUS.md for current state.
 
-Current phase: **Phase 6 COMPLETE**
+Current phase: **Phase 3 — Job Search (NEXT / NOT COMPLETE)**
 
-All phases (0-6) are complete. **Do NOT create Phase 7.**
+Completed: Phase 0, Phase 1, Phase 2
+Next: Phase 3
+
+**Do NOT create Phase 7.**
 
 ---
 
