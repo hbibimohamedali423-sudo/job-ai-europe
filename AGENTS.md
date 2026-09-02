@@ -77,7 +77,7 @@ Phase 0 established the technical foundation and MUST NOT be modified without ex
 
 **Triggers:**
 - update_updated_at_column() - auto-update timestamps
-- handle_new_user() - auto-create profile on user registration
+- handle_new_user() - auto-create profile on user registration (SECURITY DEFINER)
 
 **Seed Data:**
 - 37 default skills (JavaScript, Python, React, AWS, etc.)
@@ -367,6 +367,7 @@ OpenHands agents are **executors**, not architectural decision-makers.
 
 | Commit | Description |
 |--------|-------------|
+| (pending) | Fix Supabase auth profile trigger |
 | `1009174` | Fix Vercel pnpm deployment configuration |
 | `f25a43e` | Fix pre-existing TypeScript errors |
 | `968e702` | Phase 6 - AI Assistant: Context-aware chat interface |
