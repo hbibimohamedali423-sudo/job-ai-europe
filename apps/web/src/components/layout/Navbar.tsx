@@ -14,7 +14,7 @@ import { LanguageSelector } from '@/components/navigation/LanguageSelector'
 export function Navbar() {
   const { t } = useTranslation()
   const location = useLocation()
-  const { user, isAdmin, logout } = useAuthStore()
+  const { user, userRole, logout } = useAuthStore()
 
   const navLinks = [
     { href: '/', label: t('nav.home') },
@@ -30,7 +30,7 @@ export function Navbar() {
       ]
     : []
 
-  const adminLinks = isAdmin
+  const adminLinks = userRole === 'admin' || userRole === 'super_admin'
     ? [{ href: '/admin', label: t('nav.admin') }]
     : []
 
