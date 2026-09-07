@@ -28,7 +28,7 @@ import { AdminSettings } from '@/features/admin/pages/AdminSettings'
 import { AdminAuditLogs } from '@/features/admin/pages/AdminAuditLogs'
 
 function ProtectedRoute({ children, allowedRoles }: { children: React.ReactNode; allowedRoles?: string[] }) {
-  const { user, loading, isAdmin } = useAuthStore()
+  const { user, loading, userRole } = useAuthStore()
   const location = useLocation()
 
   if (loading) {
@@ -39,7 +39,8 @@ function ProtectedRoute({ children, allowedRoles }: { children: React.ReactNode;
     return <Navigate to="/login" state={{ from: location }} replace />
   }
 
-  if (allowedRoles && !allowedRoles.includes(isAdmin ? 'admin' : 'user')) {
+  // Use the concrete userRole (e.g. 'user' | 'admin' | 'super_admin') for role checks
+  if (allowedRoles && !allowedRoles.includes(userRole || 'user')) {
     return <Navigate to="/" replace />
   }
 
@@ -76,71 +77,107 @@ function App() {
 
         <Route path="jobs" element={<JobsPage />} />
         <Route path="jobs/:jobId" element={<JobDetailsPage />} />
-        <Route path="saved-jobs" element={
-          <ProtectedRoute>
-            <SavedJobsPage />
-          </ProtectedRoute>
-        } />
+        <Route
+          path="saved-jobs"
+          element={
+            <ProtectedRoute>
+              <SavedJobsPage />
+            </ProtectedRoute>
+          }
+        />
 
-        <Route path="profile" element={
-          <ProtectedRoute>
-            <ProfilePage />
-          </ProtectedRoute>
-        } />
+        <Route
+          path="profile"
+          element={
+            <ProtectedRoute>
+              <ProfilePage />
+            </ProtectedRoute>
+          }
+        />
 
-        <Route path="matches" element={
-          <ProtectedRoute>
-            <MatchesPage />
-          </ProtectedRoute>
-        } />
+        <Route
+          path="matches"
+          element={
+            <ProtectedRoute>
+              <MatchesPage />
+            </ProtectedRoute>
+          }
+        />
 
-        <Route path="applications" element={
-          <ProtectedRoute>
-            <ApplicationsPage />
-          </ProtectedRoute>
-        } />
+        <Route
+          path="applications"
+          element={
+            <ProtectedRoute>
+              <ApplicationsPage />
+            </ProtectedRoute>
+          }
+        />
 
-        <Route path="assistant" element={
-          <ProtectedRoute>
-            <AssistantPage />
-          </ProtectedRoute>
-        } />
+        <Route
+          path="assistant"
+          element={
+            <ProtectedRoute>
+              <AssistantPage />
+            </ProtectedRoute>
+          }
+        />
 
-        <Route path="admin" element={
-          <ProtectedRoute allowedRoles={['admin', 'super_admin']}>
-            <AdminDashboard />
-          </ProtectedRoute>
-        } />
-        <Route path="admin/users" element={
-          <ProtectedRoute allowedRoles={['admin', 'super_admin']}>
-            <AdminUsers />
-          </ProtectedRoute>
-        } />
-        <Route path="admin/jobs" element={
-          <ProtectedRoute allowedRoles={['admin', 'super_admin']}>
-            <AdminJobs />
-          </ProtectedRoute>
-        } />
-        <Route path="admin/sources" element={
-          <ProtectedRoute allowedRoles={['admin', 'super_admin']}>
-            <AdminSources />
-          </ProtectedRoute>
-        } />
-        <Route path="admin/ai" element={
-          <ProtectedRoute allowedRoles={['admin', 'super_admin']}>
-            <AdminAI />
-          </ProtectedRoute>
-        } />
-        <Route path="admin/settings" element={
-          <ProtectedRoute allowedRoles={['super_admin']}>
-            <AdminSettings />
-          </ProtectedRoute>
-        } />
-        <Route path="admin/audit" element={
-          <ProtectedRoute allowedRoles={['admin', 'super_admin']}>
-            <AdminAuditLogs />
-          </ProtectedRoute>
-        } />
+        <Route
+          path="admin"
+          element={
+            <ProtectedRoute allowedRoles={["admin", "super_admin"]}>
+              <AdminDashboard />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="admin/users"
+          element={
+            <ProtectedRoute allowedRoles={["admin", "super_admin"]}>
+              <AdminUsers />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="admin/jobs"
+          element={
+            <ProtectedRoute allowedRoles={["admin", "super_admin"]}>
+              <AdminJobs />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="admin/sources"
+          element={
+            <ProtectedRoute allowedRoles={["admin", "super_admin"]}>
+              <AdminSources />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="admin/ai"
+          element={
+            <ProtectedRoute allowedRoles={["admin", "super_admin"]}>
+              <AdminAI />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="admin/settings"
+          element={
+            <ProtectedRoute allowedRoles={["super_admin"]}>
+              <AdminSettings />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="admin/audit"
+          element={
+            <ProtectedRoute allowedRoles={["admin", "super_admin"]}>
+              <AdminAuditLogs />
+            </ProtectedRoute>
+          }
+        />
 
         <Route path="*" element={<Navigate to="/" replace />} />
       </Route>
